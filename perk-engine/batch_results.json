@@ -1,0 +1,1440 @@
+[
+  {
+    "id": "CO-001",
+    "name": "Romans 15:13 Capital LLC (Board Member Baseline)",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 1,
+    "location": "nevada",
+    "recommended_count": 52,
+    "ineligible_count": 2,
+    "total_realistic_usd": 419332,
+    "total_max_usd": 4364762,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-002",
+    "name": "Cascade SaaS Labs",
+    "funding_stage": "pre_seed",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "oregon",
+    "recommended_count": 49,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4404262,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-003",
+    "name": "NeuralBridge AI",
+    "funding_stage": "seed",
+    "entity_type": "c_corp",
+    "team_size": 5,
+    "location": "california",
+    "recommended_count": 45,
+    "ineligible_count": 11,
+    "total_realistic_usd": 439510,
+    "total_max_usd": 3833120,
+    "top_programs": [
+      "AWS Activate",
+      "Google Cloud for Startups",
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-004",
+    "name": "ClearLedger Accounting Tools",
+    "funding_stage": "bootstrapped",
+    "entity_type": "sole_proprietor",
+    "team_size": 1,
+    "location": "texas",
+    "recommended_count": 43,
+    "ineligible_count": 14,
+    "total_realistic_usd": 435072,
+    "total_max_usd": 4293842,
+    "top_programs": [
+      "Brex Startup Rewards",
+      "Y Combinator Startup School",
+      "Stripe Atlas Perks",
+      "Ramp Corporate Card",
+      "Mixpanel for Startups"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-005",
+    "name": "TrailMap Mobile",
+    "funding_stage": "pre_seed",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "colorado",
+    "recommended_count": 49,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4404262,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-006",
+    "name": "PNW Intelligence Labs",
+    "funding_stage": "seed",
+    "entity_type": "c_corp",
+    "team_size": 3,
+    "location": "oregon",
+    "recommended_count": 50,
+    "ineligible_count": 6,
+    "total_realistic_usd": 476612,
+    "total_max_usd": 3948322,
+    "top_programs": [
+      "AWS Activate",
+      "Google Cloud for Startups",
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Brex Startup Rewards"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-007",
+    "name": "PNW Makers Market",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 3,
+    "location": "oregon",
+    "recommended_count": 36,
+    "ineligible_count": 21,
+    "total_realistic_usd": 412490,
+    "total_max_usd": 3978160,
+    "top_programs": [
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-008",
+    "name": "DevPipeline.io",
+    "funding_stage": "seed",
+    "entity_type": "c_corp",
+    "team_size": 8,
+    "location": "new_york",
+    "recommended_count": 35,
+    "ineligible_count": 18,
+    "total_realistic_usd": 331510,
+    "total_max_usd": 3107120,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Amplitude Analytics for Startups",
+      "Datadog for Startups",
+      "Segment for Startups"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-009",
+    "name": "PacificRim Health Analytics",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "oregon",
+    "recommended_count": 41,
+    "ineligible_count": 16,
+    "total_realistic_usd": 429832,
+    "total_max_usd": 4242882,
+    "top_programs": [
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups",
+      "Oracle for Startups (OCI Credits)"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-010",
+    "name": "CivicCode Collective",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "oregon",
+    "recommended_count": 43,
+    "ineligible_count": 15,
+    "total_realistic_usd": 460830,
+    "total_max_usd": 4276960,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Stripe Atlas Perks",
+      "PostHog for Startups",
+      "Mixpanel for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-011",
+    "name": "Willamette Valley AgSense",
+    "funding_stage": "pre_seed",
+    "entity_type": "c_corp",
+    "team_size": 4,
+    "location": "oregon",
+    "recommended_count": 54,
+    "ineligible_count": 3,
+    "total_realistic_usd": 534092,
+    "total_max_usd": 4478802,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-012",
+    "name": "SkillStack Learning",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 1,
+    "location": "washington",
+    "recommended_count": 49,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4404262,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-013",
+    "name": "FleetForward Logistics AI",
+    "funding_stage": "seed",
+    "entity_type": "c_corp",
+    "team_size": 7,
+    "location": "california",
+    "recommended_count": 45,
+    "ineligible_count": 11,
+    "total_realistic_usd": 439310,
+    "total_max_usd": 3737920,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks",
+      "Google Cloud for Startups",
+      "PostHog for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-014",
+    "name": "CipherShield Security",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "virginia",
+    "recommended_count": 48,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4403762,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-015",
+    "name": "Artboard Studio",
+    "funding_stage": "pre_seed",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "new_york",
+    "recommended_count": 49,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4404262,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Stripe Atlas Perks",
+      "PostHog for Startups",
+      "Mixpanel for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-016",
+    "name": "Cascade Property Intel",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "oregon",
+    "recommended_count": 47,
+    "ineligible_count": 9,
+    "total_realistic_usd": 506332,
+    "total_max_usd": 4153762,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-017",
+    "name": "LocalBite Delivery Network",
+    "funding_stage": "pre_seed",
+    "entity_type": "c_corp",
+    "team_size": 6,
+    "location": "oregon",
+    "recommended_count": 48,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4403762,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-018",
+    "name": "GreenGrid Energy Analytics",
+    "funding_stage": "seed",
+    "entity_type": "c_corp",
+    "team_size": 10,
+    "location": "washington",
+    "recommended_count": 41,
+    "ineligible_count": 14,
+    "total_realistic_usd": 423310,
+    "total_max_usd": 3521920,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Amplitude Analytics for Startups",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-019",
+    "name": "CreatorCart",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "florida",
+    "recommended_count": 49,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4404262,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-020",
+    "name": "ContractClear AI",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "oregon",
+    "recommended_count": 54,
+    "ineligible_count": 3,
+    "total_realistic_usd": 534092,
+    "total_max_usd": 4478802,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-021",
+    "name": "Crater Lake Games",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 3,
+    "location": "oregon",
+    "recommended_count": 43,
+    "ineligible_count": 15,
+    "total_realistic_usd": 430072,
+    "total_max_usd": 4244342,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks",
+      "AWS Activate"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-022",
+    "name": "SensorNet Systems",
+    "funding_stage": "seed",
+    "entity_type": "c_corp",
+    "team_size": 6,
+    "location": "texas",
+    "recommended_count": 50,
+    "ineligible_count": 6,
+    "total_realistic_usd": 521812,
+    "total_max_usd": 4443522,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-023",
+    "name": "TeamFlow HR",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 4,
+    "location": "oregon",
+    "recommended_count": 40,
+    "ineligible_count": 15,
+    "total_realistic_usd": 415072,
+    "total_max_usd": 3963842,
+    "top_programs": [
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-024",
+    "name": "BlockPath Labs",
+    "funding_stage": "pre_seed",
+    "entity_type": "c_corp",
+    "team_size": 3,
+    "location": "wyoming",
+    "recommended_count": 50,
+    "ineligible_count": 8,
+    "total_realistic_usd": 483830,
+    "total_max_usd": 4352960,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks",
+      "AWS Activate"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-025",
+    "name": "GigHarbor Marketplace",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "washington",
+    "recommended_count": 48,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4403762,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Stripe Atlas Perks",
+      "PostHog for Startups",
+      "Mixpanel for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-026",
+    "name": "ClipForge Video Platform",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "california",
+    "recommended_count": 56,
+    "ineligible_count": 2,
+    "total_realistic_usd": 534332,
+    "total_max_usd": 4480262,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-027",
+    "name": "RideSpark Mobility",
+    "funding_stage": "pre_seed",
+    "entity_type": "c_corp",
+    "team_size": 5,
+    "location": "oregon",
+    "recommended_count": 41,
+    "ineligible_count": 16,
+    "total_realistic_usd": 460590,
+    "total_max_usd": 4275500,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-028",
+    "name": "PaceTracker Fitness",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 1,
+    "location": "colorado",
+    "recommended_count": 49,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4404262,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-029",
+    "name": "QuantumSpec Research Tools",
+    "funding_stage": "pre_seed",
+    "entity_type": "c_corp",
+    "team_size": 3,
+    "location": "oregon",
+    "recommended_count": 55,
+    "ineligible_count": 3,
+    "total_realistic_usd": 534092,
+    "total_max_usd": 4479302,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-030",
+    "name": "EcoReport Analytics",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "oregon",
+    "recommended_count": 48,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4403762,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-031",
+    "name": "SupportAI Automation",
+    "funding_stage": "seed",
+    "entity_type": "c_corp",
+    "team_size": 5,
+    "location": "california",
+    "recommended_count": 51,
+    "ineligible_count": 6,
+    "total_realistic_usd": 521612,
+    "total_max_usd": 4348822,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Stripe Atlas Perks",
+      "Google Cloud for Startups",
+      "PostHog for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-032",
+    "name": "OpenDeploy Infrastructure",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "washington",
+    "recommended_count": 49,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4404262,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-033",
+    "name": "StyleSync Retail Platform",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 3,
+    "location": "texas",
+    "recommended_count": 48,
+    "ineligible_count": 9,
+    "total_realistic_usd": 506332,
+    "total_max_usd": 4154262,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-034",
+    "name": "BuildTrack PM Tools",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 4,
+    "location": "oregon",
+    "recommended_count": 41,
+    "ineligible_count": 15,
+    "total_realistic_usd": 420072,
+    "total_max_usd": 4213842,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Stripe Atlas Perks",
+      "Mixpanel for Startups",
+      "Algolia for Startups"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-035",
+    "name": "WanderRoute Travel Tech",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "california",
+    "recommended_count": 49,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4404262,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-036",
+    "name": "ValidatorNode.xyz",
+    "funding_stage": "pre_seed",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "nevada",
+    "recommended_count": 48,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4403762,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-037",
+    "name": "ContentForge AI",
+    "funding_stage": "seed",
+    "entity_type": "c_corp",
+    "team_size": 6,
+    "location": "new_york",
+    "recommended_count": 50,
+    "ineligible_count": 6,
+    "total_realistic_usd": 474112,
+    "total_max_usd": 3923822,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks",
+      "AWS Activate"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-038",
+    "name": "ClearMind Wellness",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "oregon",
+    "recommended_count": 49,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4404262,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-039",
+    "name": "DataPulse API Services",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "texas",
+    "recommended_count": 46,
+    "ineligible_count": 10,
+    "total_realistic_usd": 506092,
+    "total_max_usd": 4302802,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-040",
+    "name": "AutoScript RPA",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "oregon",
+    "recommended_count": 54,
+    "ineligible_count": 3,
+    "total_realistic_usd": 534092,
+    "total_max_usd": 4478802,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-041",
+    "name": "EventPilot Platform",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 3,
+    "location": "california",
+    "recommended_count": 41,
+    "ineligible_count": 15,
+    "total_realistic_usd": 415072,
+    "total_max_usd": 3964342,
+    "top_programs": [
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-042",
+    "name": "PolicyAI InsurTech",
+    "funding_stage": "seed",
+    "entity_type": "c_corp",
+    "team_size": 12,
+    "location": "new_york",
+    "recommended_count": 44,
+    "ineligible_count": 10,
+    "total_realistic_usd": 412310,
+    "total_max_usd": 3537920,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Auth0 / Okta for Startups",
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "SBIR / STTR Federal R&D Grants"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-043",
+    "name": "LinguaSync AI",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "washington",
+    "recommended_count": 55,
+    "ineligible_count": 2,
+    "total_realistic_usd": 534332,
+    "total_max_usd": 4479762,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-044",
+    "name": "FlowBuilder No-Code",
+    "funding_stage": "pre_seed",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "texas",
+    "recommended_count": 49,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4404262,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-045",
+    "name": "SoundDeck Audio Platform",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "california",
+    "recommended_count": 56,
+    "ineligible_count": 2,
+    "total_realistic_usd": 534332,
+    "total_max_usd": 4480262,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Stripe Atlas Perks",
+      "AWS Activate",
+      "Google Cloud for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-046",
+    "name": "MetricLens BI",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 8,
+    "location": "florida",
+    "recommended_count": 34,
+    "ineligible_count": 21,
+    "total_realistic_usd": 402490,
+    "total_max_usd": 3967660,
+    "top_programs": [
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups",
+      "Oracle for Startups (OCI Credits)"
+    ],
+    "stacking_count": 6,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-047",
+    "name": "DocConnect Telehealth",
+    "funding_stage": "pre_seed",
+    "entity_type": "c_corp",
+    "team_size": 4,
+    "location": "oregon",
+    "recommended_count": 48,
+    "ineligible_count": 9,
+    "total_realistic_usd": 511332,
+    "total_max_usd": 4403762,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "DigitalOcean Hatch",
+      "Oracle for Startups (OCI Credits)",
+      "Stripe Atlas Perks"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-048",
+    "name": "ChainViz Supply Intelligence",
+    "funding_stage": "seed",
+    "entity_type": "c_corp",
+    "team_size": 5,
+    "location": "washington",
+    "recommended_count": 51,
+    "ineligible_count": 6,
+    "total_realistic_usd": 526612,
+    "total_max_usd": 4448322,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-049",
+    "name": "TalentPulse AI Recruiting",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 2,
+    "location": "oregon",
+    "recommended_count": 55,
+    "ineligible_count": 2,
+    "total_realistic_usd": 534332,
+    "total_max_usd": 4479762,
+    "top_programs": [
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Stripe Atlas Perks",
+      "AWS Activate",
+      "Google Cloud for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  },
+  {
+    "id": "CO-050",
+    "name": "ProTasker Home Services",
+    "funding_stage": "bootstrapped",
+    "entity_type": "llc",
+    "team_size": 3,
+    "location": "texas",
+    "recommended_count": 48,
+    "ineligible_count": 9,
+    "total_realistic_usd": 506332,
+    "total_max_usd": 4154262,
+    "top_programs": [
+      "PostHog for Startups",
+      "Mixpanel for Startups",
+      "Y Combinator Startup School",
+      "Brex Startup Rewards",
+      "Amplitude Analytics for Startups"
+    ],
+    "stacking_count": 7,
+    "stacking_names": [
+      "Cloud Infra Mega-Stack",
+      "AI API Coverage Stack",
+      "Stripe Atlas Compound",
+      "YC Startup School Unlock",
+      "Dev Platform Stack",
+      "Analytics Stack (pick one primary)",
+      "Banking & Finance Foundation"
+    ]
+  }
+]

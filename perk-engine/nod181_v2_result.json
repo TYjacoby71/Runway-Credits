@@ -1,0 +1,3474 @@
+{
+  "profile_summary": {
+    "entity_type": "llc",
+    "funding_stage": "bootstrapped",
+    "funding_raised_usd": 0,
+    "team_size": 1,
+    "tech_stack": [
+      "web",
+      "ai_ml",
+      "backend"
+    ],
+    "available_unlock_methods": [
+      "self_apply"
+    ]
+  },
+  "recommended": [
+    {
+      "program_id": "yc_sus",
+      "name": "Y Combinator Startup School",
+      "provider": "Y Combinator",
+      "category": "accelerator_bundle",
+      "status": "recommended",
+      "score": 151.0,
+      "scoring_notes": [
+        "credit_value: $50,000 - +94pts",
+        "sequence_priority 1 - +32pts",
+        "instant_approval - +15pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 50000,
+      "credit_range": "$50,000-$500,000",
+      "duration_months": 24,
+      "sequence_priority": 1,
+      "application_url": "https://www.startupschool.org",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [
+        "aws_activate",
+        "google_cloud",
+        "anthropic_credits",
+        "notion",
+        "hubspot",
+        "cloudflare",
+        "datadog",
+        "twilio",
+        "amplitude",
+        "posthog",
+        "figma",
+        "openai_credits",
+        "mixpanel",
+        "huggingface",
+        "auth0",
+        "segment",
+        "namecheap_startup"
+      ],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "brex",
+        "cloudflare",
+        "posthog",
+        "anthropic_credits"
+      ],
+      "stacking_notes": "Startup School deals are subset of full YC batch. Can stack SUS deals with independent applications.",
+      "sponsor_warning": null,
+      "notes": "Free enrollment. Unlocks partial deal set including AWS $25K, Brex $75K, Notion free, Stripe waived fees even without batch acceptance.",
+      "tags": [
+        "bundle",
+        "accelerator",
+        "yc",
+        "perks_aggregator",
+        "aws",
+        "brex",
+        "stripe"
+      ],
+      "tier": "gateway",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "brex",
+      "name": "Brex Startup Rewards",
+      "provider": "Brex",
+      "category": "fintech_banking",
+      "status": "recommended",
+      "score": 151.0,
+      "scoring_notes": [
+        "credit_value: $50,000 - +94pts",
+        "sequence_priority 1 - +32pts",
+        "instant_approval - +15pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 50000,
+      "credit_range": "$0-$500,000",
+      "duration_months": null,
+      "sequence_priority": 1,
+      "application_url": "https://brex.com/startups",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [
+        "anthropic_credits",
+        "notion",
+        "figma",
+        "openai_credits",
+        "auth0"
+      ],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "anthropic_credits",
+        "mercury",
+        "ramp"
+      ],
+      "stacking_notes": "Brex perks are additive. Brex AWS credits $1K-$5K stack with AWS Activate. Check both Brex and Ramp portals for overlapping deals.",
+      "sponsor_warning": null,
+      "notes": "Anthropic API credits often available via Brex. 7x points on software, 3x on travel. OpenAI/Anthropic credits especially valuable for AI products.",
+      "tags": [
+        "fintech",
+        "banking",
+        "card",
+        "perks_aggregator",
+        "rewards",
+        "anthropic",
+        "openai"
+      ],
+      "tier": "gateway",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "stripe_atlas",
+      "name": "Stripe Atlas Perks",
+      "provider": "Stripe",
+      "category": "infrastructure_bundle",
+      "status": "recommended",
+      "score": 139.5,
+      "scoring_notes": [
+        "credit_value: $30,000 - +90pts",
+        "sequence_priority 1 - +32pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 30000,
+      "credit_range": "$20,000-$50,000",
+      "duration_months": 12,
+      "sequence_priority": 1,
+      "application_url": "https://stripe.com/atlas",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [
+        "aws_activate",
+        "notion",
+        "hubspot",
+        "twilio"
+      ],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "brex",
+        "notion",
+        "hubspot",
+        "gusto"
+      ],
+      "stacking_notes": "Atlas perks are additive to all other programs. AWS $1K Atlas perk stacks with AWS Activate Founders tier.",
+      "sponsor_warning": null,
+      "notes": "Total perk value often 10-20x the $500 Atlas fee. Retroactive access for existing Atlas companies. Perks include AWS $1K, GCP $2K, HubSpot starter free, Gusto 6mo free, Carta $1.5K, 15+ others.",
+      "tags": [
+        "bundle",
+        "formation",
+        "stripe",
+        "perks_aggregator"
+      ],
+      "tier": "gateway",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "oregon_sbdc",
+      "name": "Oregon SBDC Network",
+      "provider": "Oregon Small Business Development Center Network",
+      "category": "government_grants",
+      "status": "recommended",
+      "score": 118.5,
+      "scoring_notes": [
+        "credit_value: $3,000 - +70pts",
+        "sequence_priority 2 - +24pts",
+        "instant_approval - +15pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 3000,
+      "credit_range": "$0-$5,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://oregonsbdc.org/",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [
+        "oregon_edlf"
+      ],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "oregon_business",
+        "sbir_sttr",
+        "rain_catalysts",
+        "oregon_ai_accelerator"
+      ],
+      "stacking_notes": "SBDC advisors help access and stack other Oregon and federal programs. No monetary limit \u00e2\u20ac\u201d stacks with everything.",
+      "sponsor_warning": null,
+      "notes": "Free one-on-one business counseling and grant-writing support via 19 SBDC centers at Oregon community colleges and universities. Nevada LLC with Oregon-based operations qualifies \u00e2\u20ac\u201d eligibility is based on business location not incorporation state. Advisors specifically help with Business Oregon grant applications and federal SBIR/STTR prep. No application required \u00e2\u20ac\u201d schedule an appointment directly. High ROI: immediate, free, unlocks other programs.",
+      "tags": [
+        "government",
+        "free_services",
+        "advisory",
+        "oregon",
+        "pacific_northwest",
+        "sbdc",
+        "state",
+        "grant_writing"
+      ],
+      "tier": "gateway",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "digitalocean_hatch",
+      "name": "DigitalOcean Hatch",
+      "provider": "DigitalOcean",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 142.0,
+      "scoring_notes": [
+        "credit_value: $25,000 - +88pts",
+        "sequence_priority 2 - +24pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 25000,
+      "credit_range": "$10,000-$100,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://do.co/hatch",
+      "approval_time_days": 14,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "azure"
+      ],
+      "stacking_notes": "Does not conflict with AWS/GCP/Azure. Can run DO workloads in parallel.",
+      "sponsor_warning": null,
+      "notes": "~30% acceptance rate. Stronger application with deployed product. Best value for simple VPS/containerized workloads.",
+      "tags": [
+        "cloud",
+        "vps",
+        "kubernetes",
+        "containers",
+        "database"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "oracle_cloud",
+      "name": "Oracle for Startups (OCI Credits)",
+      "provider": "Oracle",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 142.0,
+      "scoring_notes": [
+        "credit_value: $25,000 - +88pts",
+        "sequence_priority 2 - +24pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 25000,
+      "credit_range": "$10,000-$300,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://www.oracle.com/startup/",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "azure",
+        "digitalocean_hatch"
+      ],
+      "stacking_notes": "Stacks cleanly with all major clouds. OCI Always Free tier (2 VMs, 200GB storage) is perpetual and separate from startup credits.",
+      "sponsor_warning": null,
+      "notes": "OCI has a very generous Always Free tier that never expires. Startup program adds $10K-$300K on top. Autonomous Database free tier excellent for Postgres-compatible workloads.",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "compute",
+        "storage",
+        "database",
+        "always_free"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "aws_activate",
+      "name": "AWS Activate",
+      "provider": "Amazon Web Services",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 136.0,
+      "scoring_notes": [
+        "credit_value: $5,000 - +74pts",
+        "sequence_priority 1 - +32pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 5000,
+      "credit_range": "$1,000-$100,000",
+      "duration_months": 24,
+      "sequence_priority": 1,
+      "application_url": "https://aws.amazon.com/activate",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply",
+        "vc_sponsor",
+        "stripe_atlas",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "stripe_atlas",
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "stripe_atlas",
+        "brex",
+        "yc_sus",
+        "google_cloud",
+        "azure",
+        "digitalocean_hatch"
+      ],
+      "stacking_notes": "Cannot stack multiple Activate tiers simultaneously; can apply new credits when prior expire",
+      "sponsor_warning": null,
+      "notes": "Priority service for ML/AI workloads via Bedrock, SageMaker. Check current quota on model training credits.",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "compute",
+        "storage",
+        "ai_ml"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "google_cloud",
+      "name": "Google Cloud for Startups",
+      "provider": "Google",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 136.0,
+      "scoring_notes": [
+        "credit_value: $2,000 - +66pts",
+        "sequence_priority 1 - +32pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 2000,
+      "credit_range": "$2,000-$200,000",
+      "duration_months": 12,
+      "sequence_priority": 1,
+      "application_url": "https://cloud.google.com/startup",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply",
+        "vc_sponsor",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "aws_activate",
+        "azure",
+        "digitalocean_hatch",
+        "stripe_atlas"
+      ],
+      "stacking_notes": "Can stack Spark + Ignite if progression; Workspace for Startups can be added separately",
+      "sponsor_warning": null,
+      "notes": "Gemini API credits often available separately via AI Startup Program at cloud.google.com/ai-startups",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "gcp",
+        "ai_ml",
+        "vertex_ai",
+        "bigquery"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "sbir_sttr",
+      "name": "SBIR / STTR Federal R&D Grants",
+      "provider": "U.S. Federal Government",
+      "category": "government_grants",
+      "status": "recommended",
+      "score": 135.5,
+      "scoring_notes": [
+        "credit_value: $75,000 - +98pts",
+        "sequence_priority 4 - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 75000,
+      "credit_range": "$50,000-$1,750,000",
+      "duration_months": 24,
+      "sequence_priority": 4,
+      "application_url": "https://www.sbir.gov/",
+      "approval_time_days": 180,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud"
+      ],
+      "stacking_notes": "SBIR/STTR does not conflict with commercial startup programs. Many SBIR awardees also have AWS/GCP credits.",
+      "sponsor_warning": null,
+      "notes": "Non-dilutive federal R&D grants. Phase I ~$275K, Phase II up to $1.75M. AI/ML-focused agencies (DoD, NSF, NIH) all fund software. Long cycle time (6 months) but highest non-dilutive value available. Trading Agent and Runway qualify as tech R&D.",
+      "tags": [
+        "government",
+        "grant",
+        "r_and_d",
+        "ai_ml",
+        "non_dilutive"
+      ],
+      "tier": "standalone",
+      "confidence": "high-probability",
+      "confidence_reason": "good fit but long review cycle"
+    },
+    {
+      "program_id": "cohere_startups",
+      "name": "Cohere for Startups",
+      "provider": "Cohere",
+      "category": "ai_api",
+      "status": "recommended",
+      "score": 134.0,
+      "scoring_notes": [
+        "credit_value: $10,000 - +80pts",
+        "sequence_priority 2 - +24pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 10000,
+      "credit_range": "$5,000-$25,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://cohere.com/startups",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "anthropic_credits",
+        "openai_credits",
+        "groq_startup",
+        "together_ai"
+      ],
+      "stacking_notes": "Stacks with all AI providers. Cohere Command and Embed models are distinct from OpenAI/Anthropic.",
+      "sponsor_warning": null,
+      "notes": "Cohere specializes in enterprise NLP: Embed (search/RAG), Command (generation), Rerank (relevance). Strong for semantic search in BadgeTrack or document apps.",
+      "tags": [
+        "ai_ml",
+        "llm",
+        "api",
+        "embeddings",
+        "rag",
+        "nlp"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "algolia_startup",
+      "name": "Algolia for Startups",
+      "provider": "Algolia",
+      "category": "developer_tools",
+      "status": "recommended",
+      "score": 134.0,
+      "scoring_notes": [
+        "credit_value: $10,000 - +80pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 10000,
+      "credit_range": "$10,000-$10,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://www.algolia.com/developers/startups/",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "neon_startup",
+        "cohere_startups"
+      ],
+      "stacking_notes": "Algolia search can be augmented with Cohere semantic embeddings. Stacks with any backend.",
+      "sponsor_warning": null,
+      "notes": "Hosted search-as-a-service. Relevant for Runway program catalog search, BadgeTrack badge discovery, and Yard Sale listing search. Sub-100ms results.",
+      "tags": [
+        "developer_tools",
+        "search",
+        "indexing",
+        "api"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "neon_startup",
+      "name": "Neon Startup Program",
+      "provider": "Neon",
+      "category": "backend_database",
+      "status": "recommended",
+      "score": 131.5,
+      "scoring_notes": [
+        "credit_value: $3,000 - +70pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 3000,
+      "credit_range": "$1,000-$5,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://neon.tech/startup",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "vercel",
+        "fly_io",
+        "supabase"
+      ],
+      "stacking_notes": "Neon is serverless Postgres. Pairs well with Vercel (Edge) or Fly.io. Can replace Render Postgres.",
+      "sponsor_warning": null,
+      "notes": "Neon is serverless, branching Postgres - direct replacement for Render Postgres. Each git branch can have its own DB branch. BadgeTrack uses Postgres already, making migration straightforward.",
+      "tags": [
+        "database",
+        "postgres",
+        "serverless",
+        "backend",
+        "cloud"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "azure",
+      "name": "Microsoft for Startups (Azure + M365)",
+      "provider": "Microsoft",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 130.0,
+      "scoring_notes": [
+        "credit_value: $1,000 - +60pts",
+        "sequence_priority 1 - +32pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 1000,
+      "credit_range": "$1,000-$150,000",
+      "duration_months": 12,
+      "sequence_priority": 1,
+      "application_url": "https://startups.microsoft.com",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply",
+        "vc_sponsor",
+        "accelerator"
+      ],
+      "prerequisites": [],
+      "unlocks": [
+        "github_startups",
+        "openai_credits"
+      ],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "github_startups",
+        "aws_activate",
+        "google_cloud"
+      ],
+      "stacking_notes": "GitHub Advanced Security + Copilot often bundled; stack with LinkedIn Learning 25 seats",
+      "sponsor_warning": null,
+      "notes": "Azure OpenAI Service access included \u00e2\u20ac\u201d high value for AI-native products. GitHub Copilot often bundled.",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "azure",
+        "ai_ml",
+        "openai",
+        "m365",
+        "github"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "groq_startup",
+      "name": "Groq Startup Program",
+      "provider": "Groq",
+      "category": "ai_api",
+      "status": "recommended",
+      "score": 130.0,
+      "scoring_notes": [
+        "credit_value: $2,500 - +68pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 2500,
+      "credit_range": "$500-$5,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://groq.com/",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "anthropic_credits",
+        "openai_credits",
+        "cohere_startups",
+        "together_ai"
+      ],
+      "stacking_notes": "Groq LPU inference is fastest available (Llama 3, Mixtral). Stacks with any other AI provider.",
+      "sponsor_warning": null,
+      "notes": "Groq is the fastest inference provider available at 500-800 tokens/sec on Llama 3. 10B+ token/month usage makes this high-value for Trading Agent and other AI-heavy builds.",
+      "tags": [
+        "ai_ml",
+        "llm",
+        "api",
+        "inference",
+        "fast_inference"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "sendgrid_startup",
+      "name": "SendGrid Transactional Email Credits",
+      "provider": "Twilio SendGrid",
+      "category": "communications",
+      "status": "recommended",
+      "score": 122.6,
+      "scoring_notes": [
+        "credit_value: $1,200 - +62pts",
+        "sequence_priority 3 - +16pts",
+        "instant_approval - +15pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 1200,
+      "credit_range": "$600-$2,400",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://sendgrid.com/solutions/email-api/",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "twilio",
+        "customerio_startup"
+      ],
+      "stacking_notes": "SendGrid (transactional email API) stacks with Twilio (SMS/voice) and Customer.io (marketing automation).",
+      "sponsor_warning": null,
+      "notes": "Twilio SendGrid: 40K free emails/day on free plan, startup program unlocks Essentials. Industry standard for transactional email. Python SDK available. Separate product from Twilio SMS.",
+      "tags": [
+        "communications",
+        "email",
+        "transactional_email",
+        "api"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "huggingface",
+      "name": "Hugging Face for Startups",
+      "provider": "Hugging Face",
+      "category": "ai_ml_infrastructure",
+      "status": "recommended",
+      "score": 120.0,
+      "scoring_notes": [
+        "credit_value: $5,000 - +74pts",
+        "sequence_priority 3 - +16pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 5000,
+      "credit_range": "$1,000-$10,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://huggingface.co/enterprise",
+      "approval_time_days": 14,
+      "unlock_methods": [
+        "self_apply",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud"
+      ],
+      "stacking_notes": "Complements AWS/GCP AI credits. HF hosts open-source models while AWS/GCP provide inference infrastructure.",
+      "sponsor_warning": null,
+      "notes": "Inference API, Spaces (GPU apps), AutoTrain (fine-tuning), private repos. Can replace paid API costs with open-source models.",
+      "tags": [
+        "ai_ml",
+        "llm",
+        "model_hosting",
+        "open_source",
+        "inference",
+        "fine_tuning"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "together_ai",
+      "name": "Together AI for Startups",
+      "provider": "Together AI",
+      "category": "ai_ml_infrastructure",
+      "status": "recommended",
+      "score": 120.0,
+      "scoring_notes": [
+        "credit_value: $2,000 - +66pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 2000,
+      "credit_range": "$500-$5,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://www.together.ai/",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "groq_startup",
+        "huggingface",
+        "replicate_startup"
+      ],
+      "stacking_notes": "Open-source model hosting platform. Stacks with all other AI APIs.",
+      "sponsor_warning": null,
+      "notes": "Together AI runs Llama, Mistral, Qwen, and 100+ open-source models at low cost. Fine-tuning available. Good alternative when OpenAI/Anthropic budgets run out.",
+      "tags": [
+        "ai_ml",
+        "llm",
+        "api",
+        "open_source",
+        "inference",
+        "fine_tuning"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "fly_io",
+      "name": "Fly.io Startup Credits",
+      "provider": "Fly.io",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 117.6,
+      "scoring_notes": [
+        "credit_value: $600 - +56pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 600,
+      "credit_range": "$600-$1,200",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://fly.io/startup",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "digitalocean_hatch",
+        "oracle_cloud"
+      ],
+      "stacking_notes": "Excellent direct Render replacement. Deploy Python/Flask containers globally via Dockerfile.",
+      "sponsor_warning": null,
+      "notes": "Fly.io is the closest 1:1 replacement for Render for Python Flask apps. Supports Postgres, Redis, background workers. Free allowances on top of startup credits.",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "containers",
+        "deploy",
+        "python",
+        "flask"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "ramp",
+      "name": "Ramp Corporate Card",
+      "provider": "Ramp",
+      "category": "fintech_banking",
+      "status": "recommended",
+      "score": 116.0,
+      "scoring_notes": [
+        "credit_value: $5,000 - +74pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 5000,
+      "credit_range": "$0-$250,000",
+      "duration_months": null,
+      "sequence_priority": 2,
+      "application_url": "https://ramp.com",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "mercury",
+        "brex",
+        "relay"
+      ],
+      "stacking_notes": "Run Ramp alongside Mercury banking. Brex and Ramp perks portals have different partner deals \u00e2\u20ac\u201d check both.",
+      "sponsor_warning": null,
+      "notes": "1.5% cashback on all spend. No personal guarantee required. Perks include AWS, Stripe, Google Workspace, Gusto. Bill pay and accounting integrations.",
+      "tags": [
+        "card",
+        "expense",
+        "fintech",
+        "cashback",
+        "perks_aggregator"
+      ],
+      "tier": "standalone",
+      "confidence": "high-probability",
+      "confidence_reason": "good fit; standard review process"
+    },
+    {
+      "program_id": "datadog",
+      "name": "Datadog for Startups",
+      "provider": "Datadog",
+      "category": "observability_monitoring",
+      "status": "recommended",
+      "score": 114.0,
+      "scoring_notes": [
+        "credit_value: $10,000 - +80pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 10000,
+      "credit_range": "$10,000-$10,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://datadoghq.com/partner/startups",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply",
+        "yc_sus",
+        "accelerator"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "amplitude",
+        "segment"
+      ],
+      "stacking_notes": "Additive with cloud provider credits; operates independently",
+      "sponsor_warning": null,
+      "notes": "Pro tier: Infrastructure monitoring (5 hosts), APM (500K traces), Logs (1GB/day). Faster with VC/accelerator endorsement.",
+      "tags": [
+        "monitoring",
+        "observability",
+        "apm",
+        "logs",
+        "metrics"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "oregon_edlf",
+      "name": "Oregon Entrepreneurial Development Loan Fund (EDLF)",
+      "provider": "Business Oregon",
+      "category": "government_grants",
+      "status": "recommended",
+      "score": 114.0,
+      "scoring_notes": [
+        "credit_value: $25,000 - +88pts",
+        "sequence_priority 3 - +16pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 25000,
+      "credit_range": "$5,000-$100,000",
+      "duration_months": 60,
+      "sequence_priority": 3,
+      "application_url": "https://www.oregon4biz.com/Business-Assistance/Finance/EDLF/",
+      "approval_time_days": 30,
+      "unlock_methods": [
+        "self_apply",
+        "oregon_sbdc"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "oregon_sbdc"
+      ],
+      "stacks_well_with": [
+        "oregon_business",
+        "sbir_sttr",
+        "aws_activate",
+        "google_cloud"
+      ],
+      "stacking_notes": "Loan (not grant) \u00e2\u20ac\u201d does not reduce equity but must be repaid. Stacks with all grant and credit programs.",
+      "sponsor_warning": null,
+      "notes": "Business Oregon's EDLF provides low-interest loans ($5K-$100K) to Oregon startups and micro-enterprises that can't access conventional bank financing. Not a grant \u00e2\u20ac\u201d must be repaid \u00e2\u20ac\u201d but below-market interest rates and flexible terms. Oregon SBDC advisors help with the application. Nevada LLC with Oregon operations qualifies if primary business activity is in Oregon. Good bridge financing while pursuing grants and cloud credits.",
+      "tags": [
+        "government",
+        "loan",
+        "oregon",
+        "pacific_northwest",
+        "non_dilutive",
+        "state",
+        "micro_loan"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "segment",
+      "name": "Segment for Startups",
+      "provider": "Twilio Segment",
+      "category": "customer_data_platform",
+      "status": "recommended",
+      "score": 113.1,
+      "scoring_notes": [
+        "credit_value: $3,600 - +71pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 3600,
+      "credit_range": "$3,600-$3,600",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://segment.com/startups",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "amplitude",
+        "mixpanel",
+        "posthog",
+        "hubspot"
+      ],
+      "stacking_notes": "Segment as CDP collects once and routes to any analytics tool. Non-conflicting with analytics platforms \u00e2\u20ac\u201d layer Segment under them.",
+      "sponsor_warning": null,
+      "notes": "Unlimited sources/destinations, data replay, S3. Collect data once, send anywhere. Pipe customer events into HubSpot, BigQuery automatically.",
+      "tags": [
+        "cdp",
+        "data_pipeline",
+        "analytics",
+        "tracking",
+        "integrations"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "oregon_business",
+      "name": "Business Oregon Innovation Grants",
+      "provider": "Business Oregon (State of Oregon)",
+      "category": "government_grants",
+      "status": "recommended",
+      "score": 109.5,
+      "scoring_notes": [
+        "credit_value: $15,000 - +84pts",
+        "sequence_priority 3 - +16pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 15000,
+      "credit_range": "$5,000-$50,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://www.oregon4biz.com/",
+      "approval_time_days": 60,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "sbir_sttr"
+      ],
+      "stacking_notes": "State grants stack with federal SBIR/STTR and all commercial programs.",
+      "sponsor_warning": null,
+      "notes": "Oregon-based businesses qualify for Business Oregon grant programs. The Oregon SBDC also offers free consulting and grant-writing support. Nevada LLC with Oregon-based operations may qualify for some programs.",
+      "tags": [
+        "government",
+        "grant",
+        "oregon",
+        "pacific_northwest",
+        "non_dilutive",
+        "state"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "linear",
+      "name": "Linear Startup Program",
+      "provider": "Linear",
+      "category": "project_management",
+      "status": "recommended",
+      "score": 108.2,
+      "scoring_notes": [
+        "credit_value: $360 - +51pts",
+        "sequence_priority 1 - +32pts",
+        "instant_approval - +15pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 360,
+      "credit_range": "$180-$720",
+      "duration_months": 12,
+      "sequence_priority": 1,
+      "application_url": "https://linear.app/startups",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "github_startups",
+        "notion",
+        "vercel"
+      ],
+      "stacking_notes": "Additive with GitHub, Notion, Vercel credits",
+      "sponsor_warning": null,
+      "notes": "Fastest approval of any program. Full Plus plan: unlimited issues, cycles, roadmaps. Free GitHub integration.",
+      "tags": [
+        "project_management",
+        "issues",
+        "engineering",
+        "productivity"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "auth0",
+      "name": "Auth0 / Okta for Startups",
+      "provider": "Auth0 / Okta",
+      "category": "identity_auth",
+      "status": "recommended",
+      "score": 108.0,
+      "scoring_notes": [
+        "credit_value: $2,000 - +66pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 2000,
+      "credit_range": "$500-$5,000",
+      "duration_months": 24,
+      "sequence_priority": 2,
+      "application_url": "https://auth0.com/startups",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply",
+        "brex_portal",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "brex",
+        "yc_sus"
+      ],
+      "stacks_well_with": [],
+      "stacking_notes": "Additive with cloud credits; handles identity layer independently",
+      "sponsor_warning": null,
+      "notes": "7,500 MAU free. Social login, MFA, SSO, M2M tokens, attack protection. Saves months of custom auth development.",
+      "tags": [
+        "auth",
+        "identity",
+        "sso",
+        "mfa",
+        "security",
+        "oauth"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "oregon_innovation_hubs",
+      "name": "Oregon Regional Innovation Hubs",
+      "provider": "Business Oregon / Oregon Innovation Council (Oregon InC)",
+      "category": "government_grants",
+      "status": "recommended",
+      "score": 106.0,
+      "scoring_notes": [
+        "credit_value: $10,000 - +80pts",
+        "sequence_priority 3 - +16pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 10000,
+      "credit_range": "$0-$100,000",
+      "duration_months": 24,
+      "sequence_priority": 3,
+      "application_url": "https://orinnovationhub.com/",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "oregon_business",
+        "oregon_sbdc",
+        "rain_catalysts",
+        "sbir_sttr",
+        "oregon_ai_accelerator"
+      ],
+      "stacking_notes": "Hubs are facilitators \u00e2\u20ac\u201d they unlock other programs. Stacks with everything.",
+      "sponsor_warning": null,
+      "notes": "Business Oregon and Oregon InC fund 8 regional innovation hubs statewide ($3.77M awarded 2025-2027 cycle). Hubs include Portland Metro Hub, Southern Oregon Innovation Hub, and others. Each hub provides technical assistance, investor connections, and manages local grant programs for high-growth tech companies. Nevada LLC with Oregon-based operations qualifies. Portland Metro Hub is the primary contact for Portland-area startups. Hubs also run the Oregon AI Accelerator program.",
+      "tags": [
+        "government",
+        "grant",
+        "oregon",
+        "pacific_northwest",
+        "non_dilutive",
+        "state",
+        "regional",
+        "innovation",
+        "tech"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "launchdarkly_startup",
+      "name": "LaunchDarkly Startup Program",
+      "provider": "LaunchDarkly",
+      "category": "developer_tools",
+      "status": "recommended",
+      "score": 105.1,
+      "scoring_notes": [
+        "credit_value: $3,600 - +71pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 3600,
+      "credit_range": "$3,600-$3,600",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://launchdarkly.com/startups/",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "github_startups",
+        "datadog"
+      ],
+      "stacking_notes": "Feature flags integrate with deployment and monitoring pipelines.",
+      "sponsor_warning": null,
+      "notes": "Feature flag management system. Enables safe rollouts and A/B testing without redeployments. Critical for the self-serve Runway product launch.",
+      "tags": [
+        "developer_tools",
+        "feature_flags",
+        "a_b_testing",
+        "deployment"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "newrelic_startup",
+      "name": "New Relic Startup Program",
+      "provider": "New Relic",
+      "category": "observability_monitoring",
+      "status": "recommended",
+      "score": 103.5,
+      "scoring_notes": [
+        "credit_value: $3,000 - +70pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 3000,
+      "credit_range": "$500-$3,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://newrelic.com/startups",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "datadog",
+        "sentry_startup"
+      ],
+      "stacking_notes": "New Relic full-stack APM stacks with Sentry (error tracking) and can complement Datadog.",
+      "sponsor_warning": null,
+      "notes": "New Relic free tier is very generous: 100GB/mo data ingest free, 1 free full-access user. Startup program adds credits on top. Full APM, logs, traces, and synthetic monitoring included.",
+      "tags": [
+        "monitoring",
+        "observability",
+        "apm",
+        "logs",
+        "metrics",
+        "tracing"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "twilio",
+      "name": "Twilio Startup Program",
+      "provider": "Twilio",
+      "category": "communications",
+      "status": "recommended",
+      "score": 102.0,
+      "scoring_notes": [
+        "credit_value: $2,500 - +68pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 2500,
+      "credit_range": "$2,500-$2,500",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://twilio.com/startups",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply",
+        "yc_sus",
+        "stripe_atlas"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus",
+        "stripe_atlas"
+      ],
+      "stacks_well_with": [],
+      "stacking_notes": "Additive with cloud provider credits; independent",
+      "sponsor_warning": null,
+      "notes": "SendGrid (Twilio-owned) included \u00e2\u20ac\u201d covers transactional email AND SMS in single credit pool.",
+      "tags": [
+        "sms",
+        "voice",
+        "email",
+        "sendgrid",
+        "communications",
+        "notifications"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "linode_akamai",
+      "name": "Linode / Akamai Cloud Startup Program",
+      "provider": "Akamai (Linode)",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 102.0,
+      "scoring_notes": [
+        "credit_value: $250 - +48pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 250,
+      "credit_range": "$100-$500",
+      "duration_months": 6,
+      "sequence_priority": 3,
+      "application_url": "https://www.linode.com/cloud-startup-program/",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "oracle_cloud"
+      ],
+      "stacking_notes": "Stacks with all other cloud platforms. Simple self-serve pricing; great for testing multi-region deployments.",
+      "sponsor_warning": null,
+      "notes": "Simple VPS platform. Nanode 1GB ($5/mo) is among the cheapest ways to host Python Flask apps. Credits stretch to 50 months of base hosting.",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "compute",
+        "vps",
+        "linux"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "cloudflare",
+      "name": "Cloudflare for Startups",
+      "provider": "Cloudflare",
+      "category": "cdn_edge_security",
+      "status": "recommended",
+      "score": 101.6,
+      "scoring_notes": [
+        "credit_value: $2,400 - +68pts",
+        "sequence_priority 2 - +24pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 2400,
+      "credit_range": "$250-$2,400",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://cloudflare.com/forstartups",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "azure"
+      ],
+      "stacking_notes": "Additive with cloud infrastructure credits (AWS/GCP/Azure do not overlap)",
+      "sponsor_warning": null,
+      "notes": "Full Business plan: CDN, DDoS mitigation, Workers (10M req/day), R2 storage (10GB), Pages, Zero Trust. Zero Trust free up to 50 users.",
+      "tags": [
+        "cdn",
+        "edge",
+        "security",
+        "workers",
+        "ddos",
+        "zero_trust"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "figma",
+      "name": "Figma for Startups",
+      "provider": "Figma",
+      "category": "design",
+      "status": "recommended",
+      "score": 101.6,
+      "scoring_notes": [
+        "credit_value: $2,400 - +68pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 2400,
+      "credit_range": "$2,400-$2,400",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://figma.com/startups",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply",
+        "brex_portal",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "brex",
+        "yc_sus"
+      ],
+      "stacks_well_with": [],
+      "stacking_notes": "Additive with all other credits; design is independent from infra/analytics stack",
+      "sponsor_warning": null,
+      "notes": "Full Professional plan: unlimited files, version history, Dev Mode. FigJam included for architecture diagrams.",
+      "tags": [
+        "design",
+        "ui",
+        "ux",
+        "prototyping",
+        "collaboration"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "replicate_startup",
+      "name": "Replicate Startup Program",
+      "provider": "Replicate",
+      "category": "ai_ml_infrastructure",
+      "status": "recommended",
+      "score": 100.0,
+      "scoring_notes": [
+        "credit_value: $500 - +54pts",
+        "sequence_priority 3 - +16pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 500,
+      "credit_range": "$500-$1,000",
+      "duration_months": 6,
+      "sequence_priority": 3,
+      "application_url": "https://replicate.com/",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "together_ai",
+        "huggingface",
+        "groq_startup"
+      ],
+      "stacking_notes": "Stacks with all other AI providers. Unique for image/video/audio generation models.",
+      "sponsor_warning": null,
+      "notes": "Replicate specializes in image/video/audio generation models (Stable Diffusion, etc). Useful if apps need media generation capabilities.",
+      "tags": [
+        "ai_ml",
+        "api",
+        "image_generation",
+        "models",
+        "inference"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "anthropic_credits",
+      "name": "Anthropic Claude API Credits",
+      "provider": "Anthropic",
+      "category": "ai_api",
+      "status": "recommended",
+      "score": 113.0,
+      "scoring_notes": [
+        "credit_value: $500 - +54pts",
+        "sequence_priority 2 - +24pts",
+        "instant_approval - +15pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 500,
+      "credit_range": "$25-$5,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://console.anthropic.com",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "brex_portal",
+        "yc_sus",
+        "accelerator"
+      ],
+      "prerequisites": [
+        "brex",
+        "yc_sus"
+      ],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "brex",
+        "openai_credits",
+        "azure"
+      ],
+      "stacking_notes": "Credits from different sources applied sequentially. Combine with OpenAI for multi-provider AI coverage.",
+      "sponsor_warning": null,
+      "notes": "Fastest path: Brex account (instant via portal). Watch for AI-focused accelerator cohort perks.",
+      "tags": [
+        "ai_ml",
+        "llm",
+        "api",
+        "anthropic",
+        "claude"
+      ],
+      "tier": "locked",
+      "confidence": "high-probability",
+      "confidence_reason": "strong match; get gateway enrolled first"
+    }
+  ],
+  "gateway_programs": [
+    {
+      "program_id": "yc_sus",
+      "name": "Y Combinator Startup School",
+      "provider": "Y Combinator",
+      "category": "accelerator_bundle",
+      "status": "recommended",
+      "score": 151.0,
+      "scoring_notes": [
+        "credit_value: $50,000 - +94pts",
+        "sequence_priority 1 - +32pts",
+        "instant_approval - +15pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 50000,
+      "credit_range": "$50,000-$500,000",
+      "duration_months": 24,
+      "sequence_priority": 1,
+      "application_url": "https://www.startupschool.org",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [
+        "aws_activate",
+        "google_cloud",
+        "anthropic_credits",
+        "notion",
+        "hubspot",
+        "cloudflare",
+        "datadog",
+        "twilio",
+        "amplitude",
+        "posthog",
+        "figma",
+        "openai_credits",
+        "mixpanel",
+        "huggingface",
+        "auth0",
+        "segment",
+        "namecheap_startup"
+      ],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "brex",
+        "cloudflare",
+        "posthog",
+        "anthropic_credits"
+      ],
+      "stacking_notes": "Startup School deals are subset of full YC batch. Can stack SUS deals with independent applications.",
+      "sponsor_warning": null,
+      "notes": "Free enrollment. Unlocks partial deal set including AWS $25K, Brex $75K, Notion free, Stripe waived fees even without batch acceptance.",
+      "tags": [
+        "bundle",
+        "accelerator",
+        "yc",
+        "perks_aggregator",
+        "aws",
+        "brex",
+        "stripe"
+      ],
+      "tier": "gateway",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "brex",
+      "name": "Brex Startup Rewards",
+      "provider": "Brex",
+      "category": "fintech_banking",
+      "status": "recommended",
+      "score": 151.0,
+      "scoring_notes": [
+        "credit_value: $50,000 - +94pts",
+        "sequence_priority 1 - +32pts",
+        "instant_approval - +15pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 50000,
+      "credit_range": "$0-$500,000",
+      "duration_months": null,
+      "sequence_priority": 1,
+      "application_url": "https://brex.com/startups",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [
+        "anthropic_credits",
+        "notion",
+        "figma",
+        "openai_credits",
+        "auth0"
+      ],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "anthropic_credits",
+        "mercury",
+        "ramp"
+      ],
+      "stacking_notes": "Brex perks are additive. Brex AWS credits $1K-$5K stack with AWS Activate. Check both Brex and Ramp portals for overlapping deals.",
+      "sponsor_warning": null,
+      "notes": "Anthropic API credits often available via Brex. 7x points on software, 3x on travel. OpenAI/Anthropic credits especially valuable for AI products.",
+      "tags": [
+        "fintech",
+        "banking",
+        "card",
+        "perks_aggregator",
+        "rewards",
+        "anthropic",
+        "openai"
+      ],
+      "tier": "gateway",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "stripe_atlas",
+      "name": "Stripe Atlas Perks",
+      "provider": "Stripe",
+      "category": "infrastructure_bundle",
+      "status": "recommended",
+      "score": 139.5,
+      "scoring_notes": [
+        "credit_value: $30,000 - +90pts",
+        "sequence_priority 1 - +32pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 30000,
+      "credit_range": "$20,000-$50,000",
+      "duration_months": 12,
+      "sequence_priority": 1,
+      "application_url": "https://stripe.com/atlas",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [
+        "aws_activate",
+        "notion",
+        "hubspot",
+        "twilio"
+      ],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "brex",
+        "notion",
+        "hubspot",
+        "gusto"
+      ],
+      "stacking_notes": "Atlas perks are additive to all other programs. AWS $1K Atlas perk stacks with AWS Activate Founders tier.",
+      "sponsor_warning": null,
+      "notes": "Total perk value often 10-20x the $500 Atlas fee. Retroactive access for existing Atlas companies. Perks include AWS $1K, GCP $2K, HubSpot starter free, Gusto 6mo free, Carta $1.5K, 15+ others.",
+      "tags": [
+        "bundle",
+        "formation",
+        "stripe",
+        "perks_aggregator"
+      ],
+      "tier": "gateway",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "oregon_sbdc",
+      "name": "Oregon SBDC Network",
+      "provider": "Oregon Small Business Development Center Network",
+      "category": "government_grants",
+      "status": "recommended",
+      "score": 118.5,
+      "scoring_notes": [
+        "credit_value: $3,000 - +70pts",
+        "sequence_priority 2 - +24pts",
+        "instant_approval - +15pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 3000,
+      "credit_range": "$0-$5,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://oregonsbdc.org/",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [
+        "oregon_edlf"
+      ],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "oregon_business",
+        "sbir_sttr",
+        "rain_catalysts",
+        "oregon_ai_accelerator"
+      ],
+      "stacking_notes": "SBDC advisors help access and stack other Oregon and federal programs. No monetary limit \u00e2\u20ac\u201d stacks with everything.",
+      "sponsor_warning": null,
+      "notes": "Free one-on-one business counseling and grant-writing support via 19 SBDC centers at Oregon community colleges and universities. Nevada LLC with Oregon-based operations qualifies \u00e2\u20ac\u201d eligibility is based on business location not incorporation state. Advisors specifically help with Business Oregon grant applications and federal SBIR/STTR prep. No application required \u00e2\u20ac\u201d schedule an appointment directly. High ROI: immediate, free, unlocks other programs.",
+      "tags": [
+        "government",
+        "free_services",
+        "advisory",
+        "oregon",
+        "pacific_northwest",
+        "sbdc",
+        "state",
+        "grant_writing"
+      ],
+      "tier": "gateway",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    }
+  ],
+  "standalone_programs": [
+    {
+      "program_id": "digitalocean_hatch",
+      "name": "DigitalOcean Hatch",
+      "provider": "DigitalOcean",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 142.0,
+      "scoring_notes": [
+        "credit_value: $25,000 - +88pts",
+        "sequence_priority 2 - +24pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 25000,
+      "credit_range": "$10,000-$100,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://do.co/hatch",
+      "approval_time_days": 14,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "azure"
+      ],
+      "stacking_notes": "Does not conflict with AWS/GCP/Azure. Can run DO workloads in parallel.",
+      "sponsor_warning": null,
+      "notes": "~30% acceptance rate. Stronger application with deployed product. Best value for simple VPS/containerized workloads.",
+      "tags": [
+        "cloud",
+        "vps",
+        "kubernetes",
+        "containers",
+        "database"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "oracle_cloud",
+      "name": "Oracle for Startups (OCI Credits)",
+      "provider": "Oracle",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 142.0,
+      "scoring_notes": [
+        "credit_value: $25,000 - +88pts",
+        "sequence_priority 2 - +24pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 25000,
+      "credit_range": "$10,000-$300,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://www.oracle.com/startup/",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "azure",
+        "digitalocean_hatch"
+      ],
+      "stacking_notes": "Stacks cleanly with all major clouds. OCI Always Free tier (2 VMs, 200GB storage) is perpetual and separate from startup credits.",
+      "sponsor_warning": null,
+      "notes": "OCI has a very generous Always Free tier that never expires. Startup program adds $10K-$300K on top. Autonomous Database free tier excellent for Postgres-compatible workloads.",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "compute",
+        "storage",
+        "database",
+        "always_free"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "aws_activate",
+      "name": "AWS Activate",
+      "provider": "Amazon Web Services",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 136.0,
+      "scoring_notes": [
+        "credit_value: $5,000 - +74pts",
+        "sequence_priority 1 - +32pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 5000,
+      "credit_range": "$1,000-$100,000",
+      "duration_months": 24,
+      "sequence_priority": 1,
+      "application_url": "https://aws.amazon.com/activate",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply",
+        "vc_sponsor",
+        "stripe_atlas",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "stripe_atlas",
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "stripe_atlas",
+        "brex",
+        "yc_sus",
+        "google_cloud",
+        "azure",
+        "digitalocean_hatch"
+      ],
+      "stacking_notes": "Cannot stack multiple Activate tiers simultaneously; can apply new credits when prior expire",
+      "sponsor_warning": null,
+      "notes": "Priority service for ML/AI workloads via Bedrock, SageMaker. Check current quota on model training credits.",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "compute",
+        "storage",
+        "ai_ml"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "google_cloud",
+      "name": "Google Cloud for Startups",
+      "provider": "Google",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 136.0,
+      "scoring_notes": [
+        "credit_value: $2,000 - +66pts",
+        "sequence_priority 1 - +32pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 2000,
+      "credit_range": "$2,000-$200,000",
+      "duration_months": 12,
+      "sequence_priority": 1,
+      "application_url": "https://cloud.google.com/startup",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply",
+        "vc_sponsor",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "aws_activate",
+        "azure",
+        "digitalocean_hatch",
+        "stripe_atlas"
+      ],
+      "stacking_notes": "Can stack Spark + Ignite if progression; Workspace for Startups can be added separately",
+      "sponsor_warning": null,
+      "notes": "Gemini API credits often available separately via AI Startup Program at cloud.google.com/ai-startups",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "gcp",
+        "ai_ml",
+        "vertex_ai",
+        "bigquery"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "sbir_sttr",
+      "name": "SBIR / STTR Federal R&D Grants",
+      "provider": "U.S. Federal Government",
+      "category": "government_grants",
+      "status": "recommended",
+      "score": 135.5,
+      "scoring_notes": [
+        "credit_value: $75,000 - +98pts",
+        "sequence_priority 4 - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 75000,
+      "credit_range": "$50,000-$1,750,000",
+      "duration_months": 24,
+      "sequence_priority": 4,
+      "application_url": "https://www.sbir.gov/",
+      "approval_time_days": 180,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud"
+      ],
+      "stacking_notes": "SBIR/STTR does not conflict with commercial startup programs. Many SBIR awardees also have AWS/GCP credits.",
+      "sponsor_warning": null,
+      "notes": "Non-dilutive federal R&D grants. Phase I ~$275K, Phase II up to $1.75M. AI/ML-focused agencies (DoD, NSF, NIH) all fund software. Long cycle time (6 months) but highest non-dilutive value available. Trading Agent and Runway qualify as tech R&D.",
+      "tags": [
+        "government",
+        "grant",
+        "r_and_d",
+        "ai_ml",
+        "non_dilutive"
+      ],
+      "tier": "standalone",
+      "confidence": "high-probability",
+      "confidence_reason": "good fit but long review cycle"
+    },
+    {
+      "program_id": "cohere_startups",
+      "name": "Cohere for Startups",
+      "provider": "Cohere",
+      "category": "ai_api",
+      "status": "recommended",
+      "score": 134.0,
+      "scoring_notes": [
+        "credit_value: $10,000 - +80pts",
+        "sequence_priority 2 - +24pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 10000,
+      "credit_range": "$5,000-$25,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://cohere.com/startups",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "anthropic_credits",
+        "openai_credits",
+        "groq_startup",
+        "together_ai"
+      ],
+      "stacking_notes": "Stacks with all AI providers. Cohere Command and Embed models are distinct from OpenAI/Anthropic.",
+      "sponsor_warning": null,
+      "notes": "Cohere specializes in enterprise NLP: Embed (search/RAG), Command (generation), Rerank (relevance). Strong for semantic search in BadgeTrack or document apps.",
+      "tags": [
+        "ai_ml",
+        "llm",
+        "api",
+        "embeddings",
+        "rag",
+        "nlp"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "algolia_startup",
+      "name": "Algolia for Startups",
+      "provider": "Algolia",
+      "category": "developer_tools",
+      "status": "recommended",
+      "score": 134.0,
+      "scoring_notes": [
+        "credit_value: $10,000 - +80pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 10000,
+      "credit_range": "$10,000-$10,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://www.algolia.com/developers/startups/",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "neon_startup",
+        "cohere_startups"
+      ],
+      "stacking_notes": "Algolia search can be augmented with Cohere semantic embeddings. Stacks with any backend.",
+      "sponsor_warning": null,
+      "notes": "Hosted search-as-a-service. Relevant for Runway program catalog search, BadgeTrack badge discovery, and Yard Sale listing search. Sub-100ms results.",
+      "tags": [
+        "developer_tools",
+        "search",
+        "indexing",
+        "api"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "neon_startup",
+      "name": "Neon Startup Program",
+      "provider": "Neon",
+      "category": "backend_database",
+      "status": "recommended",
+      "score": 131.5,
+      "scoring_notes": [
+        "credit_value: $3,000 - +70pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 3000,
+      "credit_range": "$1,000-$5,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://neon.tech/startup",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "vercel",
+        "fly_io",
+        "supabase"
+      ],
+      "stacking_notes": "Neon is serverless Postgres. Pairs well with Vercel (Edge) or Fly.io. Can replace Render Postgres.",
+      "sponsor_warning": null,
+      "notes": "Neon is serverless, branching Postgres - direct replacement for Render Postgres. Each git branch can have its own DB branch. BadgeTrack uses Postgres already, making migration straightforward.",
+      "tags": [
+        "database",
+        "postgres",
+        "serverless",
+        "backend",
+        "cloud"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "azure",
+      "name": "Microsoft for Startups (Azure + M365)",
+      "provider": "Microsoft",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 130.0,
+      "scoring_notes": [
+        "credit_value: $1,000 - +60pts",
+        "sequence_priority 1 - +32pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 1000,
+      "credit_range": "$1,000-$150,000",
+      "duration_months": 12,
+      "sequence_priority": 1,
+      "application_url": "https://startups.microsoft.com",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply",
+        "vc_sponsor",
+        "accelerator"
+      ],
+      "prerequisites": [],
+      "unlocks": [
+        "github_startups",
+        "openai_credits"
+      ],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "github_startups",
+        "aws_activate",
+        "google_cloud"
+      ],
+      "stacking_notes": "GitHub Advanced Security + Copilot often bundled; stack with LinkedIn Learning 25 seats",
+      "sponsor_warning": null,
+      "notes": "Azure OpenAI Service access included \u00e2\u20ac\u201d high value for AI-native products. GitHub Copilot often bundled.",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "azure",
+        "ai_ml",
+        "openai",
+        "m365",
+        "github"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "groq_startup",
+      "name": "Groq Startup Program",
+      "provider": "Groq",
+      "category": "ai_api",
+      "status": "recommended",
+      "score": 130.0,
+      "scoring_notes": [
+        "credit_value: $2,500 - +68pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 2500,
+      "credit_range": "$500-$5,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://groq.com/",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "anthropic_credits",
+        "openai_credits",
+        "cohere_startups",
+        "together_ai"
+      ],
+      "stacking_notes": "Groq LPU inference is fastest available (Llama 3, Mixtral). Stacks with any other AI provider.",
+      "sponsor_warning": null,
+      "notes": "Groq is the fastest inference provider available at 500-800 tokens/sec on Llama 3. 10B+ token/month usage makes this high-value for Trading Agent and other AI-heavy builds.",
+      "tags": [
+        "ai_ml",
+        "llm",
+        "api",
+        "inference",
+        "fast_inference"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "sendgrid_startup",
+      "name": "SendGrid Transactional Email Credits",
+      "provider": "Twilio SendGrid",
+      "category": "communications",
+      "status": "recommended",
+      "score": 122.6,
+      "scoring_notes": [
+        "credit_value: $1,200 - +62pts",
+        "sequence_priority 3 - +16pts",
+        "instant_approval - +15pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 1200,
+      "credit_range": "$600-$2,400",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://sendgrid.com/solutions/email-api/",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "twilio",
+        "customerio_startup"
+      ],
+      "stacking_notes": "SendGrid (transactional email API) stacks with Twilio (SMS/voice) and Customer.io (marketing automation).",
+      "sponsor_warning": null,
+      "notes": "Twilio SendGrid: 40K free emails/day on free plan, startup program unlocks Essentials. Industry standard for transactional email. Python SDK available. Separate product from Twilio SMS.",
+      "tags": [
+        "communications",
+        "email",
+        "transactional_email",
+        "api"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "huggingface",
+      "name": "Hugging Face for Startups",
+      "provider": "Hugging Face",
+      "category": "ai_ml_infrastructure",
+      "status": "recommended",
+      "score": 120.0,
+      "scoring_notes": [
+        "credit_value: $5,000 - +74pts",
+        "sequence_priority 3 - +16pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 5000,
+      "credit_range": "$1,000-$10,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://huggingface.co/enterprise",
+      "approval_time_days": 14,
+      "unlock_methods": [
+        "self_apply",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud"
+      ],
+      "stacking_notes": "Complements AWS/GCP AI credits. HF hosts open-source models while AWS/GCP provide inference infrastructure.",
+      "sponsor_warning": null,
+      "notes": "Inference API, Spaces (GPU apps), AutoTrain (fine-tuning), private repos. Can replace paid API costs with open-source models.",
+      "tags": [
+        "ai_ml",
+        "llm",
+        "model_hosting",
+        "open_source",
+        "inference",
+        "fine_tuning"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "together_ai",
+      "name": "Together AI for Startups",
+      "provider": "Together AI",
+      "category": "ai_ml_infrastructure",
+      "status": "recommended",
+      "score": 120.0,
+      "scoring_notes": [
+        "credit_value: $2,000 - +66pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 2000,
+      "credit_range": "$500-$5,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://www.together.ai/",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "groq_startup",
+        "huggingface",
+        "replicate_startup"
+      ],
+      "stacking_notes": "Open-source model hosting platform. Stacks with all other AI APIs.",
+      "sponsor_warning": null,
+      "notes": "Together AI runs Llama, Mistral, Qwen, and 100+ open-source models at low cost. Fine-tuning available. Good alternative when OpenAI/Anthropic budgets run out.",
+      "tags": [
+        "ai_ml",
+        "llm",
+        "api",
+        "open_source",
+        "inference",
+        "fine_tuning"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "fly_io",
+      "name": "Fly.io Startup Credits",
+      "provider": "Fly.io",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 117.6,
+      "scoring_notes": [
+        "credit_value: $600 - +56pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 600,
+      "credit_range": "$600-$1,200",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://fly.io/startup",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "digitalocean_hatch",
+        "oracle_cloud"
+      ],
+      "stacking_notes": "Excellent direct Render replacement. Deploy Python/Flask containers globally via Dockerfile.",
+      "sponsor_warning": null,
+      "notes": "Fly.io is the closest 1:1 replacement for Render for Python Flask apps. Supports Postgres, Redis, background workers. Free allowances on top of startup credits.",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "containers",
+        "deploy",
+        "python",
+        "flask"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "ramp",
+      "name": "Ramp Corporate Card",
+      "provider": "Ramp",
+      "category": "fintech_banking",
+      "status": "recommended",
+      "score": 116.0,
+      "scoring_notes": [
+        "credit_value: $5,000 - +74pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 5000,
+      "credit_range": "$0-$250,000",
+      "duration_months": null,
+      "sequence_priority": 2,
+      "application_url": "https://ramp.com",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "mercury",
+        "brex",
+        "relay"
+      ],
+      "stacking_notes": "Run Ramp alongside Mercury banking. Brex and Ramp perks portals have different partner deals \u00e2\u20ac\u201d check both.",
+      "sponsor_warning": null,
+      "notes": "1.5% cashback on all spend. No personal guarantee required. Perks include AWS, Stripe, Google Workspace, Gusto. Bill pay and accounting integrations.",
+      "tags": [
+        "card",
+        "expense",
+        "fintech",
+        "cashback",
+        "perks_aggregator"
+      ],
+      "tier": "standalone",
+      "confidence": "high-probability",
+      "confidence_reason": "good fit; standard review process"
+    },
+    {
+      "program_id": "datadog",
+      "name": "Datadog for Startups",
+      "provider": "Datadog",
+      "category": "observability_monitoring",
+      "status": "recommended",
+      "score": 114.0,
+      "scoring_notes": [
+        "credit_value: $10,000 - +80pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 10000,
+      "credit_range": "$10,000-$10,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://datadoghq.com/partner/startups",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply",
+        "yc_sus",
+        "accelerator"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "amplitude",
+        "segment"
+      ],
+      "stacking_notes": "Additive with cloud provider credits; operates independently",
+      "sponsor_warning": null,
+      "notes": "Pro tier: Infrastructure monitoring (5 hosts), APM (500K traces), Logs (1GB/day). Faster with VC/accelerator endorsement.",
+      "tags": [
+        "monitoring",
+        "observability",
+        "apm",
+        "logs",
+        "metrics"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "oregon_edlf",
+      "name": "Oregon Entrepreneurial Development Loan Fund (EDLF)",
+      "provider": "Business Oregon",
+      "category": "government_grants",
+      "status": "recommended",
+      "score": 114.0,
+      "scoring_notes": [
+        "credit_value: $25,000 - +88pts",
+        "sequence_priority 3 - +16pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 25000,
+      "credit_range": "$5,000-$100,000",
+      "duration_months": 60,
+      "sequence_priority": 3,
+      "application_url": "https://www.oregon4biz.com/Business-Assistance/Finance/EDLF/",
+      "approval_time_days": 30,
+      "unlock_methods": [
+        "self_apply",
+        "oregon_sbdc"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "oregon_sbdc"
+      ],
+      "stacks_well_with": [
+        "oregon_business",
+        "sbir_sttr",
+        "aws_activate",
+        "google_cloud"
+      ],
+      "stacking_notes": "Loan (not grant) \u00e2\u20ac\u201d does not reduce equity but must be repaid. Stacks with all grant and credit programs.",
+      "sponsor_warning": null,
+      "notes": "Business Oregon's EDLF provides low-interest loans ($5K-$100K) to Oregon startups and micro-enterprises that can't access conventional bank financing. Not a grant \u00e2\u20ac\u201d must be repaid \u00e2\u20ac\u201d but below-market interest rates and flexible terms. Oregon SBDC advisors help with the application. Nevada LLC with Oregon operations qualifies if primary business activity is in Oregon. Good bridge financing while pursuing grants and cloud credits.",
+      "tags": [
+        "government",
+        "loan",
+        "oregon",
+        "pacific_northwest",
+        "non_dilutive",
+        "state",
+        "micro_loan"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "segment",
+      "name": "Segment for Startups",
+      "provider": "Twilio Segment",
+      "category": "customer_data_platform",
+      "status": "recommended",
+      "score": 113.1,
+      "scoring_notes": [
+        "credit_value: $3,600 - +71pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 3600,
+      "credit_range": "$3,600-$3,600",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://segment.com/startups",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "amplitude",
+        "mixpanel",
+        "posthog",
+        "hubspot"
+      ],
+      "stacking_notes": "Segment as CDP collects once and routes to any analytics tool. Non-conflicting with analytics platforms \u00e2\u20ac\u201d layer Segment under them.",
+      "sponsor_warning": null,
+      "notes": "Unlimited sources/destinations, data replay, S3. Collect data once, send anywhere. Pipe customer events into HubSpot, BigQuery automatically.",
+      "tags": [
+        "cdp",
+        "data_pipeline",
+        "analytics",
+        "tracking",
+        "integrations"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "oregon_business",
+      "name": "Business Oregon Innovation Grants",
+      "provider": "Business Oregon (State of Oregon)",
+      "category": "government_grants",
+      "status": "recommended",
+      "score": 109.5,
+      "scoring_notes": [
+        "credit_value: $15,000 - +84pts",
+        "sequence_priority 3 - +16pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 15000,
+      "credit_range": "$5,000-$50,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://www.oregon4biz.com/",
+      "approval_time_days": 60,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "sbir_sttr"
+      ],
+      "stacking_notes": "State grants stack with federal SBIR/STTR and all commercial programs.",
+      "sponsor_warning": null,
+      "notes": "Oregon-based businesses qualify for Business Oregon grant programs. The Oregon SBDC also offers free consulting and grant-writing support. Nevada LLC with Oregon-based operations may qualify for some programs.",
+      "tags": [
+        "government",
+        "grant",
+        "oregon",
+        "pacific_northwest",
+        "non_dilutive",
+        "state"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "linear",
+      "name": "Linear Startup Program",
+      "provider": "Linear",
+      "category": "project_management",
+      "status": "recommended",
+      "score": 108.2,
+      "scoring_notes": [
+        "credit_value: $360 - +51pts",
+        "sequence_priority 1 - +32pts",
+        "instant_approval - +15pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 360,
+      "credit_range": "$180-$720",
+      "duration_months": 12,
+      "sequence_priority": 1,
+      "application_url": "https://linear.app/startups",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "github_startups",
+        "notion",
+        "vercel"
+      ],
+      "stacking_notes": "Additive with GitHub, Notion, Vercel credits",
+      "sponsor_warning": null,
+      "notes": "Fastest approval of any program. Full Plus plan: unlimited issues, cycles, roadmaps. Free GitHub integration.",
+      "tags": [
+        "project_management",
+        "issues",
+        "engineering",
+        "productivity"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "auth0",
+      "name": "Auth0 / Okta for Startups",
+      "provider": "Auth0 / Okta",
+      "category": "identity_auth",
+      "status": "recommended",
+      "score": 108.0,
+      "scoring_notes": [
+        "credit_value: $2,000 - +66pts",
+        "sequence_priority 2 - +24pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 2000,
+      "credit_range": "$500-$5,000",
+      "duration_months": 24,
+      "sequence_priority": 2,
+      "application_url": "https://auth0.com/startups",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply",
+        "brex_portal",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "brex",
+        "yc_sus"
+      ],
+      "stacks_well_with": [],
+      "stacking_notes": "Additive with cloud credits; handles identity layer independently",
+      "sponsor_warning": null,
+      "notes": "7,500 MAU free. Social login, MFA, SSO, M2M tokens, attack protection. Saves months of custom auth development.",
+      "tags": [
+        "auth",
+        "identity",
+        "sso",
+        "mfa",
+        "security",
+        "oauth"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "oregon_innovation_hubs",
+      "name": "Oregon Regional Innovation Hubs",
+      "provider": "Business Oregon / Oregon Innovation Council (Oregon InC)",
+      "category": "government_grants",
+      "status": "recommended",
+      "score": 106.0,
+      "scoring_notes": [
+        "credit_value: $10,000 - +80pts",
+        "sequence_priority 3 - +16pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 10000,
+      "credit_range": "$0-$100,000",
+      "duration_months": 24,
+      "sequence_priority": 3,
+      "application_url": "https://orinnovationhub.com/",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "oregon_business",
+        "oregon_sbdc",
+        "rain_catalysts",
+        "sbir_sttr",
+        "oregon_ai_accelerator"
+      ],
+      "stacking_notes": "Hubs are facilitators \u00e2\u20ac\u201d they unlock other programs. Stacks with everything.",
+      "sponsor_warning": null,
+      "notes": "Business Oregon and Oregon InC fund 8 regional innovation hubs statewide ($3.77M awarded 2025-2027 cycle). Hubs include Portland Metro Hub, Southern Oregon Innovation Hub, and others. Each hub provides technical assistance, investor connections, and manages local grant programs for high-growth tech companies. Nevada LLC with Oregon-based operations qualifies. Portland Metro Hub is the primary contact for Portland-area startups. Hubs also run the Oregon AI Accelerator program.",
+      "tags": [
+        "government",
+        "grant",
+        "oregon",
+        "pacific_northwest",
+        "non_dilutive",
+        "state",
+        "regional",
+        "innovation",
+        "tech"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "launchdarkly_startup",
+      "name": "LaunchDarkly Startup Program",
+      "provider": "LaunchDarkly",
+      "category": "developer_tools",
+      "status": "recommended",
+      "score": 105.1,
+      "scoring_notes": [
+        "credit_value: $3,600 - +71pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 3600,
+      "credit_range": "$3,600-$3,600",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://launchdarkly.com/startups/",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "github_startups",
+        "datadog"
+      ],
+      "stacking_notes": "Feature flags integrate with deployment and monitoring pipelines.",
+      "sponsor_warning": null,
+      "notes": "Feature flag management system. Enables safe rollouts and A/B testing without redeployments. Critical for the self-serve Runway product launch.",
+      "tags": [
+        "developer_tools",
+        "feature_flags",
+        "a_b_testing",
+        "deployment"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "newrelic_startup",
+      "name": "New Relic Startup Program",
+      "provider": "New Relic",
+      "category": "observability_monitoring",
+      "status": "recommended",
+      "score": 103.5,
+      "scoring_notes": [
+        "credit_value: $3,000 - +70pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 3000,
+      "credit_range": "$500-$3,000",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://newrelic.com/startups",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "datadog",
+        "sentry_startup"
+      ],
+      "stacking_notes": "New Relic full-stack APM stacks with Sentry (error tracking) and can complement Datadog.",
+      "sponsor_warning": null,
+      "notes": "New Relic free tier is very generous: 100GB/mo data ingest free, 1 free full-access user. Startup program adds credits on top. Full APM, logs, traces, and synthetic monitoring included.",
+      "tags": [
+        "monitoring",
+        "observability",
+        "apm",
+        "logs",
+        "metrics",
+        "tracing"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "twilio",
+      "name": "Twilio Startup Program",
+      "provider": "Twilio",
+      "category": "communications",
+      "status": "recommended",
+      "score": 102.0,
+      "scoring_notes": [
+        "credit_value: $2,500 - +68pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 2500,
+      "credit_range": "$2,500-$2,500",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://twilio.com/startups",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply",
+        "yc_sus",
+        "stripe_atlas"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus",
+        "stripe_atlas"
+      ],
+      "stacks_well_with": [],
+      "stacking_notes": "Additive with cloud provider credits; independent",
+      "sponsor_warning": null,
+      "notes": "SendGrid (Twilio-owned) included \u00e2\u20ac\u201d covers transactional email AND SMS in single credit pool.",
+      "tags": [
+        "sms",
+        "voice",
+        "email",
+        "sendgrid",
+        "communications",
+        "notifications"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "linode_akamai",
+      "name": "Linode / Akamai Cloud Startup Program",
+      "provider": "Akamai (Linode)",
+      "category": "cloud_infrastructure",
+      "status": "recommended",
+      "score": 102.0,
+      "scoring_notes": [
+        "credit_value: $250 - +48pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'cloud_infrastructure' - +20pts"
+      ],
+      "realistic_credit_usd": 250,
+      "credit_range": "$100-$500",
+      "duration_months": 6,
+      "sequence_priority": 3,
+      "application_url": "https://www.linode.com/cloud-startup-program/",
+      "approval_time_days": 3,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "oracle_cloud"
+      ],
+      "stacking_notes": "Stacks with all other cloud platforms. Simple self-serve pricing; great for testing multi-region deployments.",
+      "sponsor_warning": null,
+      "notes": "Simple VPS platform. Nanode 1GB ($5/mo) is among the cheapest ways to host Python Flask apps. Credits stretch to 50 months of base hosting.",
+      "tags": [
+        "cloud",
+        "infrastructure",
+        "compute",
+        "vps",
+        "linux"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "cloudflare",
+      "name": "Cloudflare for Startups",
+      "provider": "Cloudflare",
+      "category": "cdn_edge_security",
+      "status": "recommended",
+      "score": 101.6,
+      "scoring_notes": [
+        "credit_value: $2,400 - +68pts",
+        "sequence_priority 2 - +24pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 2400,
+      "credit_range": "$250-$2,400",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://cloudflare.com/forstartups",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "yc_sus"
+      ],
+      "stacks_well_with": [
+        "aws_activate",
+        "google_cloud",
+        "azure"
+      ],
+      "stacking_notes": "Additive with cloud infrastructure credits (AWS/GCP/Azure do not overlap)",
+      "sponsor_warning": null,
+      "notes": "Full Business plan: CDN, DDoS mitigation, Workers (10M req/day), R2 storage (10GB), Pages, Zero Trust. Zero Trust free up to 50 users.",
+      "tags": [
+        "cdn",
+        "edge",
+        "security",
+        "workers",
+        "ddos",
+        "zero_trust"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "figma",
+      "name": "Figma for Startups",
+      "provider": "Figma",
+      "category": "design",
+      "status": "recommended",
+      "score": 101.6,
+      "scoring_notes": [
+        "credit_value: $2,400 - +68pts",
+        "sequence_priority 3 - +16pts",
+        "fast_approval - +8pts",
+        "unlock_methods {'self_apply'} - +10pts"
+      ],
+      "realistic_credit_usd": 2400,
+      "credit_range": "$2,400-$2,400",
+      "duration_months": 12,
+      "sequence_priority": 3,
+      "application_url": "https://figma.com/startups",
+      "approval_time_days": 5,
+      "unlock_methods": [
+        "self_apply",
+        "brex_portal",
+        "yc_sus"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [
+        "brex",
+        "yc_sus"
+      ],
+      "stacks_well_with": [],
+      "stacking_notes": "Additive with all other credits; design is independent from infra/analytics stack",
+      "sponsor_warning": null,
+      "notes": "Full Professional plan: unlimited files, version history, Dev Mode. FigJam included for architecture diagrams.",
+      "tags": [
+        "design",
+        "ui",
+        "ux",
+        "prototyping",
+        "collaboration"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    },
+    {
+      "program_id": "replicate_startup",
+      "name": "Replicate Startup Program",
+      "provider": "Replicate",
+      "category": "ai_ml_infrastructure",
+      "status": "recommended",
+      "score": 100.0,
+      "scoring_notes": [
+        "credit_value: $500 - +54pts",
+        "sequence_priority 3 - +16pts",
+        "unlock_methods {'self_apply'} - +10pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 500,
+      "credit_range": "$500-$1,000",
+      "duration_months": 6,
+      "sequence_priority": 3,
+      "application_url": "https://replicate.com/",
+      "approval_time_days": 7,
+      "unlock_methods": [
+        "self_apply"
+      ],
+      "prerequisites": [],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "together_ai",
+        "huggingface",
+        "groq_startup"
+      ],
+      "stacking_notes": "Stacks with all other AI providers. Unique for image/video/audio generation models.",
+      "sponsor_warning": null,
+      "notes": "Replicate specializes in image/video/audio generation models (Stable Diffusion, etc). Useful if apps need media generation capabilities.",
+      "tags": [
+        "ai_ml",
+        "api",
+        "image_generation",
+        "models",
+        "inference"
+      ],
+      "tier": "standalone",
+      "confidence": "near-certain",
+      "confidence_reason": "self-apply, strong eligibility, predictable payout"
+    }
+  ],
+  "locked_programs": [
+    {
+      "program_id": "anthropic_credits",
+      "name": "Anthropic Claude API Credits",
+      "provider": "Anthropic",
+      "category": "ai_api",
+      "status": "recommended",
+      "score": 113.0,
+      "scoring_notes": [
+        "credit_value: $500 - +54pts",
+        "sequence_priority 2 - +24pts",
+        "instant_approval - +15pts",
+        "goal_match 'ai_api_credits' - +20pts"
+      ],
+      "realistic_credit_usd": 500,
+      "credit_range": "$25-$5,000",
+      "duration_months": 12,
+      "sequence_priority": 2,
+      "application_url": "https://console.anthropic.com",
+      "approval_time_days": 1,
+      "unlock_methods": [
+        "brex_portal",
+        "yc_sus",
+        "accelerator"
+      ],
+      "prerequisites": [
+        "brex",
+        "yc_sus"
+      ],
+      "unlocks": [],
+      "enhances_via": [],
+      "stacks_well_with": [
+        "brex",
+        "openai_credits",
+        "azure"
+      ],
+      "stacking_notes": "Credits from different sources applied sequentially. Combine with OpenAI for multi-provider AI coverage.",
+      "sponsor_warning": null,
+      "notes": "Fastest path: Brex account (instant via portal). Watch for AI-focused accelerator cohort perks.",
+      "tags": [
+        "ai_ml",
+        "llm",
+        "api",
+        "anthropic",
+        "claude"
+      ],
+      "tier": "locked",
+      "confidence": "high-probability",
+      "confidence_reason": "strong match; get gateway enrolled first"
+    }
+  ],
+  "below_threshold": [
+    {
+      "program_id": "rain_catalysts",
+      "name": "RAIN Catalysts",
+      "score": 100.0
+    },
+    {
+      "program_id": "customerio_startup",
+      "name": "Customer.io Startup Program",
+      "score": 99.1
+    },
+    {
+      "program_id": "sentry_startup",
+      "name": "Sentry for Startups",
+      "score": 98.9
+    },
+    {
+      "program_id": "cloudinary_startup",
+      "name": "Cloudinary Startup Program",
+      "score": 95.6
+    },
+    {
+      "program_id": "circleci_startup",
+      "name": "CircleCI Startup Program",
+      "score": 94.0
+    },
+    {
+      "program_id": "intercom",
+      "name": "Intercom Early Stage Program",
+      "score": 92.0
+    },
+    {
+      "program_id": "supabase",
+      "name": "Supabase Startup Program",
+      "score": 91.6
+    },
+    {
+      "program_id": "vercel",
+      "name": "Vercel Startup Program",
+      "score": 89.6
+    },
+    {
+      "program_id": "notion",
+      "name": "Notion for Startups",
+      "score": 89.6
+    },
+    {
+      "program_id": "mongodb_atlas",
+      "name": "MongoDB Atlas for Startups",
+      "score": 88.0
+    },
+    {
+      "program_id": "jetbrains",
+      "name": "JetBrains for Startups",
+      "score": 87.6
+    },
+    {
+      "program_id": "postman_startup",
+      "name": "Postman Startup Program",
+      "score": 87.6
+    },
+    {
+      "program_id": "hubspot",
+      "name": "HubSpot for Startups",
+      "score": 84.0
+    },
+    {
+      "program_id": "openai_credits",
+      "name": "OpenAI Startup Credits",
+      "score": 84.0
+    },
+    {
+      "program_id": "square_startup",
+      "name": "Square for Startups",
+      "score": 80.0
+    },
+    {
+      "program_id": "github_startups",
+      "name": "GitHub for Startups",
+      "score": 77.6
+    },
+    {
+      "program_id": "namecheap_startup",
+      "name": "Namecheap for Startups",
+      "score": 66.1
+    },
+    {
+      "program_id": "relay",
+      "name": "Relay Business Banking",
+      "score": 50.0
+    }
+  ],
+  "stacking_opportunities": [
+    {
+      "stack_name": "Cloud Infra Mega-Stack",
+      "your_programs": [
+        "aws_activate",
+        "google_cloud",
+        "azure",
+        "digitalocean_hatch"
+      ],
+      "all_programs": [
+        "aws_activate",
+        "google_cloud",
+        "azure",
+        "digitalocean_hatch"
+      ],
+      "value_note": "~$104K+ in cloud credits with no conflicts",
+      "notes": "Run DO workloads alongside AWS/GCP/Azure. All four stack cleanly."
+    },
+    {
+      "stack_name": "AI API Coverage Stack",
+      "your_programs": [
+        "brex",
+        "anthropic_credits",
+        "azure",
+        "huggingface"
+      ],
+      "all_programs": [
+        "brex",
+        "anthropic_credits",
+        "openai_credits",
+        "azure",
+        "huggingface"
+      ],
+      "value_note": "Multi-provider AI coverage: Anthropic + OpenAI + Azure OpenAI + HuggingFace open-source",
+      "notes": "Fastest path: Brex (instant) - Azure (self-apply) - YC SUS - accelerator."
+    },
+    {
+      "stack_name": "Stripe Atlas Compound",
+      "your_programs": [
+        "stripe_atlas",
+        "aws_activate",
+        "google_cloud"
+      ],
+      "all_programs": [
+        "stripe_atlas",
+        "aws_activate",
+        "google_cloud",
+        "hubspot",
+        "notion"
+      ],
+      "value_note": "$500 Atlas fee - $20K+ in bundled perks",
+      "notes": "Atlas adds AWS $1K, GCP $2K, HubSpot free, Gusto 6mo, Carta $1.5K on top of direct applications."
+    },
+    {
+      "stack_name": "YC Startup School Unlock",
+      "your_programs": [
+        "yc_sus",
+        "aws_activate",
+        "brex",
+        "cloudflare"
+      ],
+      "all_programs": [
+        "yc_sus",
+        "aws_activate",
+        "brex",
+        "cloudflare",
+        "posthog"
+      ],
+      "value_note": "Free enrollment unlocks AWS $25K, Brex $75K, Cloudflare, PostHog",
+      "notes": "Apply YC SUS first (free, instant). Unlocks partial deal set immediately."
+    },
+    {
+      "stack_name": "Dev Platform Stack",
+      "your_programs": [
+        "linear",
+        "cloudflare"
+      ],
+      "all_programs": [
+        "github_startups",
+        "linear",
+        "vercel",
+        "supabase",
+        "cloudflare"
+      ],
+      "value_note": "~$12K+ in build/deploy/track tooling at near-zero cash outlay",
+      "notes": "Complete build-deploy-track workflow. All non-conflicting."
+    },
+    {
+      "stack_name": "Banking & Finance Foundation",
+      "your_programs": [
+        "brex",
+        "ramp"
+      ],
+      "all_programs": [
+        "mercury",
+        "brex",
+        "ramp",
+        "relay"
+      ],
+      "value_note": "Treasury (Mercury/Relay) + Spend rewards (Brex/Ramp) + Partner perk portals",
+      "notes": "Mercury = primary treasury. Relay = operational sub-accounts. Brex/Ramp = card rewards. All four stack cleanly."
+    }
+  ],
+  "ineligible": [
+    {
+      "program_id": "visa_startup",
+      "name": "Visa Startup Partner Program",
+      "status": "ineligible",
+      "ineligible_reason": "Tech focus ['fintech', 'payments'] doesn't match your stack ['backend', 'web', 'ai_ml']",
+      "score": 0,
+      "scoring_notes": []
+    },
+    {
+      "program_id": "oregon_ai_accelerator",
+      "name": "Oregon AI Accelerator",
+      "status": "ineligible",
+      "ineligible_reason": "Tech focus ai_ml doesn't match your stack ['backend', 'web', 'ai_ml']",
+      "score": 0,
+      "scoring_notes": []
+    }
+  ],
+  "conflicts": [
+    {
+      "program_id": "amplitude",
+      "name": "Amplitude Analytics for Startups",
+      "status": "conflict",
+      "conflict_reason": "Conflicts with your current perk(s): ['posthog']",
+      "score": 0,
+      "scoring_notes": []
+    },
+    {
+      "program_id": "mixpanel",
+      "name": "Mixpanel for Startups",
+      "status": "conflict",
+      "conflict_reason": "Conflicts with your current perk(s): ['posthog']",
+      "score": 0,
+      "scoring_notes": []
+    }
+  ],
+  "totals": {
+    "recommended_count": 34,
+    "gateway_count": 4,
+    "standalone_count": 29,
+    "locked_count": 1,
+    "below_threshold_count": 18,
+    "ineligible_count": 2,
+    "conflict_count": 2,
+    "total_realistic_value_usd": 386410,
+    "total_max_value_usd": 4258320,
+    "confidence_distribution": {
+      "near-certain": 31,
+      "high-probability": 3
+    }
+  }
+}

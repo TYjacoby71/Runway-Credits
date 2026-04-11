@@ -1,0 +1,986 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Runway Credits Agent API",
+    "description": "JSON API wrapping the Runway Credits matching engine and checklist. Designed to be called by Zero/OpenClaw or any agent that needs to assess a user profile and return a personalized startup-credits roadmap.",
+    "contact": {
+      "name": "Cashflow CTO",
+      "email": "cto@cashflow.run"
+    },
+    "license": {
+      "name": "Proprietary"
+    },
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Liveness check",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/match": {
+      "post": {
+        "summary": "Run matching engine",
+        "description": "Accepts a user profile and returns a personalized, ordered list of recommended startup credit programs with scores, credit values, stacking opportunities, and application URLs. No data is persisted.",
+        "operationId": "match_match_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserProfile"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MatchResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/checklist/generate": {
+      "post": {
+        "summary": "Generate (or refresh) checklist",
+        "description": "Runs the matching engine against the supplied profile, persists the results to SQLite, and returns the full checklist. If a checklist already exists for this user (matched by email), it is refreshed with the latest scores. Requires `profile.email` to identify the user.",
+        "operationId": "generate_checklist_checklist_generate_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateChecklistRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChecklistResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/checklist/{user_ref}": {
+      "get": {
+        "summary": "Fetch checklist for a user",
+        "description": "Returns the stored checklist for a user identified by email or user ID. The checklist must have been generated first via POST /checklist/generate.",
+        "operationId": "get_checklist_checklist__user_ref__get",
+        "parameters": [
+          {
+            "name": "user_ref",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "User Ref"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChecklistResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ChecklistItem": {
+        "properties": {
+          "program_id": {
+            "type": "string",
+            "title": "Program Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Category"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "match_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Match Score"
+          },
+          "match_notes": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Match Notes"
+          },
+          "realistic_credit_usd": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Realistic Credit Usd"
+          },
+          "credit_range": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Credit Range"
+          },
+          "application_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Application Url"
+          },
+          "approval_time_days": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Approval Time Days"
+          },
+          "stacking_notes": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Stacking Notes"
+          },
+          "affiliate_link": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Affiliate Link"
+          },
+          "affiliate_notes": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Affiliate Notes"
+          },
+          "user_notes": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "User Notes"
+          },
+          "credit_amount_received": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Credit Amount Received"
+          },
+          "applied_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Applied At"
+          },
+          "approved_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Approved At"
+          },
+          "reminder_date": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reminder Date"
+          },
+          "updated_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Updated At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "program_id",
+          "name",
+          "status"
+        ],
+        "title": "ChecklistItem"
+      },
+      "ChecklistResponse": {
+        "properties": {
+          "user_id": {
+            "type": "string",
+            "title": "User Id"
+          },
+          "user_email": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "User Email"
+          },
+          "user_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "User Name"
+          },
+          "total_programs": {
+            "type": "integer",
+            "title": "Total Programs"
+          },
+          "total_realistic_value_usd": {
+            "type": "integer",
+            "title": "Total Realistic Value Usd"
+          },
+          "approved_value_usd": {
+            "type": "integer",
+            "title": "Approved Value Usd"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/ChecklistItem"
+            },
+            "type": "array",
+            "title": "Items"
+          }
+        },
+        "type": "object",
+        "required": [
+          "user_id",
+          "total_programs",
+          "total_realistic_value_usd",
+          "approved_value_usd",
+          "items"
+        ],
+        "title": "ChecklistResponse"
+      },
+      "GenerateChecklistRequest": {
+        "properties": {
+          "profile": {
+            "$ref": "#/components/schemas/UserProfile"
+          },
+          "db": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Db",
+            "description": "Path to SQLite DB (defaults to perk_engine.db next to api.py)"
+          }
+        },
+        "type": "object",
+        "required": [
+          "profile"
+        ],
+        "title": "GenerateChecklistRequest"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "MatchResponse": {
+        "properties": {
+          "profile_summary": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Profile Summary"
+          },
+          "recommended": {
+            "items": {
+              "$ref": "#/components/schemas/ProgramResult"
+            },
+            "type": "array",
+            "title": "Recommended"
+          },
+          "stacking_opportunities": {
+            "items": {
+              "$ref": "#/components/schemas/StackingOpportunity"
+            },
+            "type": "array",
+            "title": "Stacking Opportunities"
+          },
+          "ineligible": {
+            "items": {
+              "$ref": "#/components/schemas/ProgramResult"
+            },
+            "type": "array",
+            "title": "Ineligible"
+          },
+          "conflicts": {
+            "items": {
+              "$ref": "#/components/schemas/ProgramResult"
+            },
+            "type": "array",
+            "title": "Conflicts"
+          },
+          "totals": {
+            "$ref": "#/components/schemas/MatchTotals"
+          }
+        },
+        "type": "object",
+        "required": [
+          "profile_summary",
+          "recommended",
+          "stacking_opportunities",
+          "ineligible",
+          "conflicts",
+          "totals"
+        ],
+        "title": "MatchResponse",
+        "description": "Full response from the matching engine."
+      },
+      "MatchTotals": {
+        "properties": {
+          "recommended_count": {
+            "type": "integer",
+            "title": "Recommended Count"
+          },
+          "ineligible_count": {
+            "type": "integer",
+            "title": "Ineligible Count"
+          },
+          "conflict_count": {
+            "type": "integer",
+            "title": "Conflict Count"
+          },
+          "total_realistic_value_usd": {
+            "type": "integer",
+            "title": "Total Realistic Value Usd"
+          },
+          "total_max_value_usd": {
+            "type": "integer",
+            "title": "Total Max Value Usd"
+          }
+        },
+        "type": "object",
+        "required": [
+          "recommended_count",
+          "ineligible_count",
+          "conflict_count",
+          "total_realistic_value_usd",
+          "total_max_value_usd"
+        ],
+        "title": "MatchTotals"
+      },
+      "ProgramResult": {
+        "properties": {
+          "program_id": {
+            "type": "string",
+            "title": "Program Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "provider": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Provider"
+          },
+          "category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Category"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score"
+          },
+          "scoring_notes": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Scoring Notes"
+          },
+          "realistic_credit_usd": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Realistic Credit Usd"
+          },
+          "credit_range": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Credit Range"
+          },
+          "duration_months": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Duration Months"
+          },
+          "sequence_priority": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sequence Priority"
+          },
+          "application_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Application Url"
+          },
+          "approval_time_days": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Approval Time Days"
+          },
+          "unlock_methods": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unlock Methods"
+          },
+          "stacks_well_with": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Stacks Well With"
+          },
+          "stacking_notes": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Stacking Notes"
+          },
+          "sponsor_warning": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sponsor Warning"
+          },
+          "notes": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Notes"
+          },
+          "tags": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Tags"
+          },
+          "ineligible_reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ineligible Reason"
+          },
+          "conflict_reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Conflict Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "program_id",
+          "name",
+          "status"
+        ],
+        "title": "ProgramResult"
+      },
+      "StackingOpportunity": {
+        "properties": {
+          "stack_name": {
+            "type": "string",
+            "title": "Stack Name"
+          },
+          "your_programs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Your Programs"
+          },
+          "all_programs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "All Programs"
+          },
+          "value_note": {
+            "type": "string",
+            "title": "Value Note"
+          },
+          "notes": {
+            "type": "string",
+            "title": "Notes"
+          }
+        },
+        "type": "object",
+        "required": [
+          "stack_name",
+          "your_programs",
+          "all_programs",
+          "value_note",
+          "notes"
+        ],
+        "title": "StackingOpportunity"
+      },
+      "UserProfile": {
+        "properties": {
+          "name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name",
+            "description": "Full name or company name"
+          },
+          "email": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Email",
+            "description": "Primary email (used as user key in the checklist DB)"
+          },
+          "entity_type": {
+            "type": "string",
+            "title": "Entity Type",
+            "description": "One of: llc, c_corp, s_corp, sole_proprietor, non_us",
+            "examples": [
+              "llc"
+            ]
+          },
+          "funding_stage": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Funding Stage",
+            "description": "One of: bootstrapped, pre_seed, seed, series_a, series_b_plus",
+            "examples": [
+              "bootstrapped"
+            ]
+          },
+          "funding_raised_usd": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Funding Raised Usd",
+            "description": "Total funding raised in USD",
+            "default": 0
+          },
+          "team_size": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Team Size",
+            "description": "Number of full-time employees/founders",
+            "default": 1
+          },
+          "tech_stack": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Tech Stack",
+            "description": "Tags from: web, ai_ml, fintech, mobile, saas, backend, frontend, data_analytics"
+          },
+          "available_unlock_methods": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Available Unlock Methods",
+            "description": "Accelerator/network memberships that unlock deals: yc, techstars, antler, a16z, 500_startups, sequoia_scout, other"
+          },
+          "has_vc_or_accelerator": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Has Vc Or Accelerator",
+            "description": "True if the company has VC backing or is in an accelerator",
+            "default": false
+          },
+          "current_perks": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current Perks",
+            "description": "Program IDs the company already holds (they will be skipped). E.g. ['aws_activate', 'brex']"
+          }
+        },
+        "type": "object",
+        "required": [
+          "entity_type"
+        ],
+        "title": "UserProfile",
+        "description": "Input profile for the matching engine.  All fields are optional except\n`entity_type` \u2014 the engine needs it to assess US-entity eligibility."
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

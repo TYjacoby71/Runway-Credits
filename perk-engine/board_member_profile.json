@@ -1,0 +1,22 @@
+{
+  "name": "Board Member (Romans 15:13 Capital LLC)",
+  "email": "",
+  "entity_type": "llc",
+  "company_age_years": 2.0,
+  "has_deployed_product": true,
+  "funding_stage": "bootstrapped",
+  "funding_raised_usd": 0,
+  "annual_revenue_usd": 25000,
+  "has_vc_or_accelerator": false,
+  "accelerator_memberships": [],
+  "team_size": 1,
+  "tech_stack": ["web", "ai_ml", "backend"],
+  "has_brex": false,
+  "has_ramp": false,
+  "has_mercury": true,
+  "has_stripe_atlas": false,
+  "current_perks": ["posthog", "mercury"],
+  "priority_goals": ["cloud_infrastructure", "ai_api_credits"],
+  "available_unlock_methods": ["self_apply"],
+  "created_at": "2026-04-07T21:00:00Z"
+}

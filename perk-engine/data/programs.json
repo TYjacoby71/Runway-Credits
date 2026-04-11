@@ -227,7 +227,7 @@
       "m365",
       "github"
     ],
-    "notes": "Azure OpenAI Service access included \u00e2\u20ac\u201d high value for AI-native products. GitHub Copilot often bundled.",
+    "notes": "Azure OpenAI Service access included â€” high value for AI-native products. GitHub Copilot often bundled.",
     "prerequisites": [],
     "enhances_via": [],
     "unlocks": [
@@ -1207,7 +1207,7 @@
       "communications",
       "notifications"
     ],
-    "notes": "SendGrid (Twilio-owned) included \u00e2\u20ac\u201d covers transactional email AND SMS in single credit pool.",
+    "notes": "SendGrid (Twilio-owned) included â€” covers transactional email AND SMS in single credit pool.",
     "prerequisites": [],
     "enhances_via": [
       "yc_sus",
@@ -1270,7 +1270,7 @@
         "segment",
         "datadog"
       ],
-      "notes": "Complements Segment (CDP). Do NOT run Amplitude + Mixpanel simultaneously \u00e2\u20ac\u201d fragmented data."
+      "notes": "Complements Segment (CDP). Do NOT run Amplitude + Mixpanel simultaneously â€” fragmented data."
     },
     "tags": [
       "analytics",
@@ -1604,7 +1604,7 @@
       "pycharm",
       "webstorm"
     ],
-    "notes": "All Products Pack: IntelliJ IDEA, PyCharm, DataGrip, WebStorm, GoLand, Rider. Renewable up to 3 years \u00e2\u20ac\u201d unusually long.",
+    "notes": "All Products Pack: IntelliJ IDEA, PyCharm, DataGrip, WebStorm, GoLand, Rider. Renewable up to 3 years â€” unusually long.",
     "prerequisites": [],
     "enhances_via": [],
     "unlocks": []
@@ -1735,7 +1735,7 @@
         "brex",
         "relay"
       ],
-      "notes": "Run Ramp alongside Mercury banking. Brex and Ramp perks portals have different partner deals \u00e2\u20ac\u201d check both."
+      "notes": "Run Ramp alongside Mercury banking. Brex and Ramp perks portals have different partner deals â€” check both."
     },
     "tags": [
       "card",
@@ -1803,7 +1803,7 @@
       "stacks_well_with": [
         "segment"
       ],
-      "notes": "Conflicts with Amplitude \u00e2\u20ac\u201d choose one primary analytics platform. Segment as CDP complements Mixpanel."
+      "notes": "Conflicts with Amplitude â€” choose one primary analytics platform. Segment as CDP complements Mixpanel."
     },
     "tags": [
       "analytics",
@@ -1996,7 +1996,7 @@
         "posthog",
         "hubspot"
       ],
-      "notes": "Segment as CDP collects once and routes to any analytics tool. Non-conflicting with analytics platforms \u00e2\u20ac\u201d layer Segment under them."
+      "notes": "Segment as CDP collects once and routes to any analytics tool. Non-conflicting with analytics platforms â€” layer Segment under them."
     },
     "tags": [
       "cdp",
@@ -2066,7 +2066,7 @@
       "onboarding",
       "crm"
     ],
-    "notes": "95% off Year 1 \u00e2\u20ac\u201d one of the most generous discount structures in SaaS. Fin AI bot handles support tickets automatically. Verified via Crunchbase/LinkedIn.",
+    "notes": "95% off Year 1 â€” one of the most generous discount structures in SaaS. Fin AI bot handles support tickets automatically. Verified via Crunchbase/LinkedIn.",
     "prerequisites": [],
     "enhances_via": [],
     "unlocks": []
@@ -2123,7 +2123,7 @@
         "brex",
         "ramp"
       ],
-      "notes": "Use Relay for treasury management alongside Mercury. Different partner perk networks \u00e2\u20ac\u201d worth having both. Use Ramp or Brex on top for spend rewards."
+      "notes": "Use Relay for treasury management alongside Mercury. Different partner perk networks â€” worth having both. Use Ramp or Brex on top for spend rewards."
     },
     "tags": [
       "banking",
@@ -3523,7 +3523,7 @@
         "credit_usd_min": 500,
         "credit_usd_max": 5000,
         "requires_sponsor": false,
-        "description": "Advisors help apply for Business Oregon, SBA Microloan, and federal SBIR/STTR grants \u00e2\u20ac\u201d equivalent value in consulting fees saved"
+        "description": "Advisors help apply for Business Oregon, SBA Microloan, and federal SBIR/STTR grants â€” equivalent value in consulting fees saved"
       }
     ],
     "eligibility": {
@@ -3557,7 +3557,7 @@
         "rain_catalysts",
         "oregon_ai_accelerator"
       ],
-      "notes": "SBDC advisors help access and stack other Oregon and federal programs. No monetary limit \u00e2\u20ac\u201d stacks with everything."
+      "notes": "SBDC advisors help access and stack other Oregon and federal programs. No monetary limit â€” stacks with everything."
     },
     "tags": [
       "government",
@@ -3569,7 +3569,7 @@
       "state",
       "grant_writing"
     ],
-    "notes": "Free one-on-one business counseling and grant-writing support via 19 SBDC centers at Oregon community colleges and universities. Nevada LLC with Oregon-based operations qualifies \u00e2\u20ac\u201d eligibility is based on business location not incorporation state. Advisors specifically help with Business Oregon grant applications and federal SBIR/STTR prep. No application required \u00e2\u20ac\u201d schedule an appointment directly. High ROI: immediate, free, unlocks other programs.",
+    "notes": "Free one-on-one business counseling and grant-writing support via 19 SBDC centers at Oregon community colleges and universities. Nevada LLC with Oregon-based operations qualifies â€” eligibility is based on business location not incorporation state. Advisors specifically help with Business Oregon grant applications and federal SBIR/STTR prep. No application required â€” schedule an appointment directly. High ROI: immediate, free, unlocks other programs.",
     "prerequisites": [],
     "enhances_via": [],
     "unlocks": [
@@ -3642,7 +3642,7 @@
       "regional",
       "rural"
     ],
-    "notes": "RAIN (Regional Accelerator & Innovation Network) supports Oregon innovators \u00e2\u20ac\u201d especially in underserved rural areas \u00e2\u20ac\u201d through free workshops, venture catalyst connections, and capital access programs backed by USDA Rural Development grants. Nevada LLC with Oregon operations qualifies. Focused on Lane, Linn, Benton, Lincoln, and Grant counties but serves all of Oregon. RAIN can bridge connections to Portland Metro and statewide funding networks.",
+    "notes": "RAIN (Regional Accelerator & Innovation Network) supports Oregon innovators â€” especially in underserved rural areas â€” through free workshops, venture catalyst connections, and capital access programs backed by USDA Rural Development grants. Nevada LLC with Oregon operations qualifies. Focused on Lane, Linn, Benton, Lincoln, and Grant counties but serves all of Oregon. RAIN can bridge connections to Portland Metro and statewide funding networks.",
     "prerequisites": [],
     "enhances_via": [],
     "unlocks": []
@@ -3716,7 +3716,7 @@
       "state",
       "google_backed"
     ],
-    "notes": "Launched 2026 with Google seed funding. 20 early-stage AI startups per cohort (50%+ Oregon-based). 3-month hybrid program in Portland. Up to $50K in equity-free grant prizes. Run annually \u00e2\u20ac\u201d applications typically open Nov/Dec for Feb cohort. Highly relevant for AI/ML apps being built. Board member building AI apps (trading agent, yard sale app etc.) is a strong fit. Applications from non-Oregon companies accepted if AI-focused.",
+    "notes": "Launched 2026 with Google seed funding. 20 early-stage AI startups per cohort (50%+ Oregon-based). 3-month hybrid program in Portland. Up to $50K in equity-free grant prizes. Run annually â€” applications typically open Nov/Dec for Feb cohort. Highly relevant for AI/ML apps being built. Board member building AI apps (trading agent, yard sale app etc.) is a strong fit. Applications from non-Oregon companies accepted if AI-focused.",
     "prerequisites": [],
     "enhances_via": [],
     "unlocks": []
@@ -3777,7 +3777,7 @@
         "sbir_sttr",
         "oregon_ai_accelerator"
       ],
-      "notes": "Hubs are facilitators \u00e2\u20ac\u201d they unlock other programs. Stacks with everything."
+      "notes": "Hubs are facilitators â€” they unlock other programs. Stacks with everything."
     },
     "tags": [
       "government",
@@ -3851,7 +3851,7 @@
         "aws_activate",
         "google_cloud"
       ],
-      "notes": "Loan (not grant) \u00e2\u20ac\u201d does not reduce equity but must be repaid. Stacks with all grant and credit programs."
+      "notes": "Loan (not grant) â€” does not reduce equity but must be repaid. Stacks with all grant and credit programs."
     },
     "tags": [
       "government",
@@ -3862,7 +3862,7 @@
       "state",
       "micro_loan"
     ],
-    "notes": "Business Oregon's EDLF provides low-interest loans ($5K-$100K) to Oregon startups and micro-enterprises that can't access conventional bank financing. Not a grant \u00e2\u20ac\u201d must be repaid \u00e2\u20ac\u201d but below-market interest rates and flexible terms. Oregon SBDC advisors help with the application. Nevada LLC with Oregon operations qualifies if primary business activity is in Oregon. Good bridge financing while pursuing grants and cloud credits.",
+    "notes": "Business Oregon's EDLF provides low-interest loans ($5K-$100K) to Oregon startups and micro-enterprises that can't access conventional bank financing. Not a grant â€” must be repaid â€” but below-market interest rates and flexible terms. Oregon SBDC advisors help with the application. Nevada LLC with Oregon operations qualifies if primary business activity is in Oregon. Good bridge financing while pursuing grants and cloud credits.",
     "prerequisites": [],
     "enhances_via": [
       "oregon_sbdc"
@@ -8289,14 +8289,20 @@
     "provider": "Netlify",
     "category": "developer_tools",
     "credit_min_usd": 600,
-    "credit_max_usd": 2000,
-    "realistic_credit_usd": 1200,
+    "credit_max_usd": 2400,
+    "realistic_credit_usd": 1600,
     "duration_months": 12,
     "tiers": [
       {
         "name": "Startup",
         "credit_usd": 1200,
         "requires_sponsor": false
+      },
+      {
+        "name": "Claude AI Integration Bonus",
+        "credit_usd": 400,
+        "requires_sponsor": false,
+        "notes": "Extra $400 platform credit unlocked when you deploy a project using Claude (Anthropic). Available in Netlify dashboard as an integration partner credit."
       }
     ],
     "eligibility": {
@@ -8318,14 +8324,16 @@
     "application_url": "https://www.netlify.com/",
     "approval_time_days": 3,
     "unlock_methods": [
-      "self_apply"
+      "self_apply",
+      "integrate_claude_ai"
     ],
     "sequence_priority": 2,
     "stacking": {
       "conflicts_with": [],
       "stacks_well_with": [
         "github_startups",
-        "vercel"
+        "vercel",
+        "anthropic_credits"
       ],
       "notes": null
     },
@@ -8334,9 +8342,11 @@
       "deployment",
       "jamstack",
       "cdn",
-      "frontend"
+      "frontend",
+      "ai_integration",
+      "anthropic_partner"
     ],
-    "notes": "Jamstack hosting platform.",
+    "notes": "Jamstack hosting platform. Offers extra $400 credits when you integrate Claude AI via Anthropic — visible in Netlify dashboard. Stack with Startup Plan for up to $1,600 total.",
     "prerequisites": [],
     "enhances_via": [],
     "unlocks": []

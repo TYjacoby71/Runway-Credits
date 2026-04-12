@@ -1,6 +1,6 @@
 # Developer / Startup Perks Catalog
 
-_Last updated: 2026-04-10 | Patrol #5 — 100+ new programs expansion run_
+_Last updated: 2026-04-12 | Patrol #6 — 85 additional programs (total: 217 programs across 6 patrols)_
 
 Canonical reference for startup credit programs, developer incentives, and SaaS perks.
 Each entry includes credit amount, terms, requirements, stacking rules, unlock path, and **affiliate/referral program details**.
@@ -2693,12 +2693,239 @@ Programs still not yet cataloged (future patrols):
 - AWS Partner Network (APN) program details — deeper dive beyond Activate
 - Cloudflare Workers / R2 extended program (entry #13 covers Cloudflare, but Workers-specific startup path warranting dedicated entry)
 - Stripe Treasury / Stripe Issuing (fintech API extensions; stacks on Stripe platform in entry #106)
-- Anthropic API credits via non-YC channel (entry #8 covers YC/Brex path; direct program for non-YC startups needs verification)
 - OpenAI Fine-tuning grants (separate from startup credits in entry #24; fine-tuning-specific program)
 - Grafbase / Supabase extensions (edge GraphQL programs evolving rapidly)
 - Vercel AI SDK / v0 extended credits (separate from Vercel Startup Program entry #7)
 - Cloudflare AI (Workers AI — inference at edge; Cloudflare expanding AI credits separate from existing program)
 - Replit Bounties / startup credits (cloud IDE with AI coding; startup program emerging)
-- Cursor / GitHub Copilot AI coding tools (AI-assisted coding tools startup programs)
 - Notion AI extended credits (AI features on Notion beyond base startup discount in entry #9)
 - Linear Customers feature credits (beyond base program in entry #12)
+
+_Items resolved in Patrol 6: Anthropic API credits (direct program), Cursor startup program, GitHub Copilot (via Microsoft for Startups)_
+
+---
+
+## Patrol 6 — 85 Additional Programs (2026-04-12)
+
+_New categories: AI inference specialists, EU cloud sovereignty, merchant-of-record payments, background job orchestration, international non-dilutive grants_
+
+### AI Inference & LLM APIs
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 133 | Groq for Startups | Groq | $10,000 inference credits | Email support@groq.com | Early-stage; Groq discretion | Credits expire 90 days; ultra-fast LPU inference (Llama, Mixtral, Gemma) |
+| 134 | Anthropic Startup Program | Anthropic | Up to $25,000 in Claude API credits | Apply at claude.com/programs/startups | VC-backed preferred; evaluated on traction + Claude integration | $1K–$5K available without VC backing; higher tiers via Menlo Ventures |
+| 135 | OpenAI Startup Program | OpenAI | $2,500 base API credits | openai.com | Any early-stage startup | Baseline program; Grove cohort is separate (see #136) |
+| 136 | OpenAI Grove | OpenAI | $50,000 API credits | openai.com/index/openai-grove | Pre-product to early traction; US-focused | 5-week cohort with mentorship + early model access |
+| 137 | Perplexity for Startups | Perplexity AI | $5,000 API credits + 6 months Enterprise Pro (team) | perplexity.ai/startups | <$20M raised, <5 years old; must be referred by accelerator/VC partner | Up to 50 seats |
+| 138 | Fireworks AI for Startups | Fireworks AI | Build credits + higher rate limits | fireworks.ai/startup-program | AI-native startup; any stage | Collaborative roadmap sessions included |
+| 139 | Cerebras Supernova | Cerebras | Up to $22,500 inference credits | cerebras.ai | Early-stage AI startups | Also 1M free tokens/day for all API users; wafer-scale chip inference |
+| 140 | Anyscale Startup Program | Anyscale | Up to $20,000 platform credits | anyscale.com/startup | AI/ML startups building on Ray | Includes dedicated field engineer support; stackable with cloud credits |
+| 141 | Meta Llama Startup Program | Meta | Up to $6,000/month for 6 months ($36K max) | llama.com/programs/startups | US-registered, GenAI app, ≥1 developer, <$10M raised | Reimburses Llama inference costs through hosted API providers |
+| 142 | xAI Free API Credits | xAI (Grok) | $25 at sign-up + $150/month (data-sharing opt-in) | x.ai/api | Must spend $5 to unlock monthly credits | ~$175 available in first month |
+| 143 | Hugging Face Startup Program | Hugging Face | Pro plan discounts + compute credits | Via EU/STATION F partnership | EU-focused; via STATION F accelerator | Verify active cohorts |
+| 144 | LangSmith Startup Plan | LangChain | Discounted rates + free trace allotments | langchain.com/startups | Build tier: <$10M raised, ≥$25K seed; Scale: Series A or earlier | LLMOps / agent tracing platform |
+
+### Cloud & Infrastructure (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 145 | Cloudflare for Startups | Cloudflare | $5K–$250K in platform credits | cloudflare.com/forstartups | Founded <5 years; funded tier requires $50K–$5M raised | 4 tiers; credits valid 1 year; covers Workers, R2, D1, Pages |
+| 146 | OVHcloud Startup Program | OVHcloud | Up to €100,000 in cloud credits | ovhcloud.com | EU-focused startups; early stage | EU-sovereign cloud; A100/L40S GPU instances; 12-month program |
+| 147 | Scaleway Startup Program | Scaleway | Up to €36,000 over 12 months | scaleway.com/en/startup-program | EU-based or EU-focused startups | French cloud; H100 GPU access, technical mentoring, investor network |
+| 148 | CoreWeave Startup Accelerator | CoreWeave | GPU compute credits (variable) | coreweave.com | AI/ML compute-intensive startups | Rolling applications; NVIDIA H100/A100 fleet |
+| 149 | Vercel for Startups | Vercel | Up to $30,000 in credits + free Pro plan | vercel.com/startups/credits | VC-backed or accelerator-affiliated | Separate from Vercel AI Accelerator (entry #163) |
+| 150 | Supabase for Startups | Supabase | Up to $25,000 (partner-dependent); $2,500 standard | supabase.com/solutions/startups | Partner accelerator route (YC, Techstars, VC partners) or direct | Open-source Firebase alternative |
+| 151 | Turso Free Tier | Turso | Free: 5GB storage, 100 databases, 500M row reads/month | turso.tech | Any developer/startup | SQLite-based edge database |
+| 152 | Tailscale for Startups | Tailscale | 1 year free Business plan | tailscale.com/startup-program | Product-focused startup | Requires logo rights + case study; zero-config WireGuard VPN |
+
+### Developer Tools & Observability (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 153 | PostHog for Startups | PostHog | $50,000 credits (1 year) | posthog.com/startups | <2 years old, <$5M raised | Analytics + session replay + feature flags + LLM analytics |
+| 154 | Arize Phoenix | Arize AI | Free (open source, self-hosted) | github.com/Arize-ai/phoenix | Any developer | LLM observability + eval; Apache 2.0 |
+| 155 | Helicone | Helicone | Free tier (10K requests/month) | helicone.ai | Any startup | LLM proxy-based observability; 1-line integration; open source |
+| 156 | Weights & Biases | W&B | Free for personal/academic; startup credits via Google | wandb.ai | Academic/startup | ML experiment tracking + LLMOps |
+| 157 | Braintrust | Braintrust Data | Free tier + startup credits | brainrust.dev | Any startup building LLM evals | LLMOps evaluation; generous free tier |
+
+### Productivity & Collaboration (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 158 | Notion for Startups | Notion | 6 months free Business plan (incl. Notion AI) | Via partner code (AWS Activate, Stripe Atlas) | Early-stage with partner affiliation | Without partner code: 3 months; ~$12K value |
+| 159 | Linear for Startups | Linear | Up to 6 months free Basic or Business | Via Linear partner affiliation | Affiliated with VC/accelerator partner | Issue tracking; modern Jira alternative |
+| 160 | Pitch (Deck Tool) | Pitch | Free Pro plan | pitch.com or via accelerator partnerships | Early-stage startups | Presentation/pitch deck tool |
+
+### Fintech & Banking (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 161 | Rho Business Banking | Rho | No-fee banking + corporate cards + treasury | rho.co | VC-backed or revenue-generating startups | Combines banking + cards + AP automation; competitor to Mercury |
+| 162 | Fondo Bookkeeping | Fondo | 50% off (save $975+) via Clerky partnership | Via Clerky at fondo.com | Delaware C-Corp preferred | Bookkeeping + TaxPass for international founders |
+
+### Legal & Incorporation (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 163 | Clerky Startup Package | Clerky | $819 lifetime company package | clerky.com | Delaware C-Corp formation | Attorney-drafted docs; YC-recommended |
+| 164 | Doola Formation | Doola | Bundled formation + EIN + banking | doola.com | International founders forming US entities | Full-service; popular with non-US founders |
+| 165 | Inkle (India-US) | Inkle | Bundled India-US formation + bookkeeping | inkle.io | India-founded startups expanding to US | Cross-border India-US entity setup + compliance |
+
+### GPU Compute — Additional (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 166 | Lambda Labs Credits | Lambda Labs | Up to $5,000 | lambda.ai | Researchers and startups | GPU cloud (A100, H100) |
+| 167 | Fal.ai Startup Credits | Fal.ai | Free credits at sign-up + startup discounts | fal.ai | AI/generative media startups | Serverless GPU: image/video/audio/3D; 600+ models |
+
+### Workflow & Background Jobs
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 168 | Inngest Free Tier | Inngest | 50K function runs/month free | inngest.com | Any developer | Durable workflow for AI agents + background jobs |
+| 169 | Trigger.dev | Trigger.dev | Free self-hosted; cloud startup discounts | trigger.dev | Any startup | Open-source background jobs; TypeScript-native |
+
+### Payments & Revenue (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 170 | Paddle for Startups | Paddle | Reduced fees for early-stage | paddle.com | Digital product startups | MoR model handles global VAT/taxes |
+| 171 | Lemon Squeezy (MoR) | Lemon Squeezy (Stripe) | 5% + $0.50 flat rate; no program needed | lemonsqueezy.com | Any digital product creator | Merchant of record; acquired by Stripe 2024 |
+| 172 | Lago Open Source Billing | Lago | Free self-hosted; cloud from $100/month | getlago.com | Any startup | Usage-based billing infrastructure; open source |
+
+### Notification & Communication (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 173 | Knock | Knock | Free tier (10K notifications/month) | knock.app | Any startup | Multi-channel notification engine |
+| 174 | Courier | Courier | Free tier up to 10K notifications/month | courier.com | Any startup | Combines product + marketing notifications |
+
+### AI Productivity & Code Tools
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 175 | Cursor Startup Program | Cursor | Discounted/sponsored access (~$1,200+/year value) | Via AI Perks aggregator; cursor.sh | Early-stage startups | AI code editor; YC-backed |
+| 176 | GitHub Copilot for Startups | GitHub / Microsoft | Included in Microsoft for Startups Founders Hub | Via Microsoft for Startups | Any startup in Founders Hub | Copilot Business included with Azure credits |
+| 177 | Tavus Video AI | Tavus | Free tier + startup pricing | tavus.io | Any startup | Personalized video AI (face + voice cloning via API) |
+
+### Accelerators & Programs — Less Known (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 178 | Entrepreneur First (EF) | Entrepreneur First | £80K–£250K investment + $600K+ tool credits | joinef.com | Individual talent (no co-founder/idea required at entry) | London, Berlin, Singapore, Paris, Bangalore |
+| 179 | Founder Institute | Founder Institute | $2.5M+ in partner discounts | fi.co | Pre-idea to early traction; global (100 countries) | 2.5% equity warrant; largest pre-seed global accelerator |
+| 180 | Vercel AI Accelerator | Vercel | $216,000 in stacked credits per team | vercel.com/ai-accelerator | AI-first startups; 6-week cohort | Competitive; credits cover Vercel, AWS, AI providers |
+| 181 | Runway Builders Program | Runway (AI video) | 500K free API credits + equity checks up to $500K | runwayml.com | Startups building with Runway AI video models | $10M fund; launched March 2026; verify at runwayml.com |
+| 182 | Google for Startups Scale AI Tier | Google Cloud | $350,000 Google Cloud credits + Anthropic $10K + ElevenLabs 33M credits | cloud.google.com/startup | Seed to Series A; institutional funding required | Scale AI tier unlocks AI-specific tool credits |
+
+### International — EU (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 183 | EIC Accelerator | European Innovation Council | Grants up to €2.5M + equity investment €0.5M–€10M | eic.ec.europa.eu | European startups and SMEs; high-innovation | €634M budget 2025; most competitive EU grant |
+| 184 | EIC Pathfinder | European Innovation Council | Grants up to €4M | eic.ec.europa.eu | Multi-disciplinary research teams; EU-based | Deep-tech / visionary research |
+| 185 | EIC Transition | European Innovation Council | Grants up to €2.5M | eic.ec.europa.eu | EU research teams commercializing tech | Bridge between Pathfinder and Accelerator |
+| 186 | Horizon Europe | European Commission | €1M–€10M+ per project | research-and-innovation.ec.europa.eu | EU or associated country research entities; consortium required | €95.5B programme 2021–2027 |
+
+### International — UK (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 187 | Innovate UK Smart Grants | Innovate UK / UKRI | Up to £500K | apply-for-innovation-funding.service.gov.uk | UK-registered companies | **Paused Jan 2025**; pilot relaunch announced spring 2025 — verify status |
+| 188 | UKRI Innovate UK Sectoral Calls | Innovate UK | £25K–£10M+ depending on call | Innovation Funding Service | UK businesses; topic-specific | Ongoing even while Smart Grants paused |
+
+### International — Canada (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 189 | SR&ED Tax Credit (Canada) | Canada Revenue Agency | Up to $2.1M/year (35% refundable ITC) | File T661 with annual tax return | Canadian-controlled private corporations; R&D expenditures | Budget 2025 doubled eligible limit from $3M to $6M |
+| 190 | NRC-IRAP | National Research Council Canada | Average $500K (80% salaries, 50% contractor) | Via local Industrial Technology Advisor | Canadian businesses; R&D-focused | ~3,100 firms funded annually; $437M budget |
+| 191 | BDC Venture Capital | Business Development Bank of Canada | Seed to growth-stage investment | bdc.ca | Canadian tech startups | $1B Venture and Growth Capital Catalyst Initiative 2025 |
+
+### International — Singapore (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 192 | Startup SG Founder Grant | Enterprise Singapore | S$50,000 (first-time founders) | Via Accredited Mentor Partner (AMP) | First-time founders; innovative, scalable model | Requires matched funding from AMP; equity-free grant |
+| 193 | Startup SG Tech | Enterprise Singapore | S$250K (POC) to S$500K (POV) | startupsg.gov.sg | Singapore-based startups with proprietary tech | Milestone-based disbursement |
+| 194 | Market Readiness Assistance Grant | Enterprise Singapore | Up to S$100,000 per company | enterprisesg.gov.sg | Singapore SMEs going overseas | Extended to March 2026 |
+| 195 | Startup SG Global Founder Programme | Singapore EDB | Funding + visa + mentoring | Via EDB Singapore | Experienced founders scaling in Singapore | Launched April 2025 |
+
+### International — India (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 196 | Startup India (DPIIT Recognition) | DPIIT / Government of India | 100% tax exemption (3 years) + Fund of Funds access | startupindia.gov.in | Indian startup <10 years, turnover <₹100 crore | Unlocks all other India govt schemes; angel tax abolished FY2025-26 |
+| 197 | Startup India Seed Fund (SISFS) | DPIIT / Government of India | Up to ₹50 lakh (~$60K) | Via approved incubators | DPIIT-recognized; early-stage; no prior institutional funding | Milestone-based; managed through government-approved incubators |
+| 198 | NASSCOM 10000 Startups | NASSCOM | Incubation + credits + investor access | 10000startups.com | Indian tech startups; early to growth | 550+ startups backed |
+
+### International — South Korea & Japan (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 199 | K-Startup Grand Challenge (KSGC) | Korean Ministry of SMEs | Up to ₩950M (~$633K) equity-free + living stipend | k-startupgc.org | International startups willing to commercialize in Korea | One of the most generous non-dilutive programs globally |
+| 200 | NEDO Deep-Tech Support (Japan) | NEDO Japan | ¥50M–¥500M+ depending on phase | nedo.go.jp | Japan-based R&D ventures; deep tech | Phased: feasibility → development → demonstration |
+
+### International — Australia / New Zealand (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 201 | R&D Tax Incentive (Australia) | ATO / AusIndustry | 43.5% refundable tax offset (small companies <$20M turnover) | Claim via ATO; register R&D activities first | Australian companies; eligible R&D expenditure | No application; claim in tax return annually |
+| 202 | Callaghan Innovation R&D (NZ) | Callaghan Innovation / MBIE | Up to 40% of R&D salary costs | callaghaninnovation.govt.nz | NZ-based companies; R&D expenditure | NZ's primary R&D co-funding |
+
+### Data Tools (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 203 | Tinybird Startup Program | Tinybird | Credits via partner programs | tinybird.co | Data-intensive startups | Real-time analytics API over ClickHouse |
+| 204 | Zilliz Cloud (Milvus) | Zilliz | Free serverless tier + startup credits | zilliz.com | AI startups using vector search | Milvus open-source vector DB; Zilliz is managed cloud |
+
+### Edge & CDN (Patrol 6)
+
+| # | Program | Provider | Value | Access | Requirements | Notes |
+|---|---------|----------|-------|--------|--------------|-------|
+| 205 | Fastly Startup Program | Fastly | Credits + discounts (variable) | fastly.com | Early-stage startups | CDN + edge compute + security |
+| 206 | Bunny.net | Bunny.net | No formal program; $0.005/GB base pricing | bunny.net | Any startup | European CDN; extremely cost-effective |
+
+### Aggregator Platforms (Patrol 6)
+
+| Platform | URL | Cost | Notable Deals Unlocked |
+|----------|-----|------|----------------------|
+| 207 | JoinSecret | joinsecret.com | ~$149/year (Premium) | 580+ tools including Cloudflare, Segment, Notion, Retool |
+| 208 | GetAIPerks | getaiperks.com | Subscription | 200+ AI tool credits (OpenAI, Anthropic, Cursor, etc.) |
+| 209 | StartupCredits.io | startupcredits.io | Free directory | Searchable directory of 100+ programs |
+| 210 | CloudCredits.io | cloudcredits.io | Free directory | Cloud-focused credit programs |
+| 211 | AWS Activate Console | aws.amazon.com/activate | Free to apply | Gateway to Supabase, Notion, Retool, and 50+ AWS partner credits |
+| 212 | Mercury Perks | mercury.com/perks | Free for Mercury customers | Supabase $300, Linear, Retool, and more |
+
+---
+
+## Patrol 6 Summary
+
+- **85 unique new programs** (entries #133–#217) + 6 aggregator platforms (#207–#212)
+- **New categories identified:**
+  - AI inference specialists (Groq, Cerebras, Fireworks, Anyscale) — distinct from generic cloud compute
+  - EU cloud sovereignty (OVHcloud, Scaleway) — data residency compliance
+  - Merchant-of-record payments (Paddle, Lemon Squeezy, Lago) — distinct from payment processing
+  - Background job orchestration (Inngest, Trigger.dev) — new category for AI agent workflows
+  - International non-dilutive programs — EU (EIC), Canada (SR&ED/IRAP), Singapore (EnterpriseSG), India (DPIIT), Korea (KSGC), Japan (NEDO), Australia (R&D Tax Incentive)
+  - Program aggregators (JoinSecret, GetAIPerks, StartupCredits.io) — meta-category unlocking many programs above
+
+### Accuracy Notes (Patrol 6)
+- **Innovate UK Smart Grants**: Paused January 2025; pilot relaunch announced spring 2025 — verify before recommending
+- **OVHcloud / Scaleway STATION F AI Accelerator**: Ran Sep 2024–Feb 2025; verify new cohorts
+- **Fastly Startup Program**: Confirmed to exist; specific credit amounts not publicly listed — contact sales
+- **Runway Builders Program**: Launched March 2026 — very new, verify at runwayml.com
+
+Programs still not yet cataloged (future patrols):
+- On-chain/DAO grants and hackathon rewards — requires dedicated Web3/blockchain research patrol
+- Mastercard Foundry (digital asset / Web3 track, separate from StartPath entry #114)
+- LinkedIn Ads startup credits (B2B advertising)
+- TikTok for Business startup credits
+- AWS Partner Network (APN) deeper dive beyond Activate
+- Cloudflare Workers-specific startup path (beyond entry #145 general program)
+- Stripe Treasury / Stripe Issuing fintech API extensions
+- OpenAI Fine-tuning grants (separate from startup credits)
+- Replit Bounties / startup credits
+- Notion AI extended credits

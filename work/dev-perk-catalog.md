@@ -2397,6 +2397,84 @@ _Sources: parallel research batches (Batches 1–5) + direct CMO research — Ap
 
 ---
 
+## Patrol #5 Addendum — 4 additional programs from Batch 2 research (total catalog: 136 programs)
+
+_Sources: Batch 2 research agent (AI APIs + email tools) — completed April 2026_
+
+---
+
+### 133 — Groq for Startups
+
+| Field | Detail |
+|-------|--------|
+| **Credit amount** | $10,000 in Groq inference credits |
+| **Program tiers** | Single tier — "hand-selected scaling companies" (selection at Groq's discretion) |
+| **Duration** | 90 days from credit award — strict short window; plan usage carefully |
+| **Terms** | Credits apply to Groq inference API: ultra-fast inference on Llama 3, Mixtral, Gemma, Whisper; sub-100ms latency at scale |
+| **Requirements** | Early-stage startup building products on Groq's inference API; no hard funding-stage cutoff; selection at Groq's discretion |
+| **Application path** | Email `startups@groq.com` directly, OR apply via form at `cloud.groq.com/apply-to-groq-for-startups` |
+| **Stacking rules** | Additive to other AI inference providers; Groq's differentiation is ultra-low-latency inference (5–10× faster than standard GPU inference) — use for real-time voice/chat applications where latency is critical |
+| **Unlock path** | Direct email or form application; no accelerator requirement stated |
+| **Sequence** | Apply when building latency-sensitive AI products (real-time voice, streaming chat, coding assistants); Groq's sub-100ms inference enables UX patterns impossible on standard GPU inference |
+| **Notes** | 90-day credit window is strict and unusually short (vs 12 months for most programs). $10K covers substantial inference volume but requires a ready product to use credits before expiry. IBM-partnered (October 2025) |
+| **Affiliate/referral** | No public affiliate commission program. Partner program is enterprise go-to-market focused, not affiliate-commission based. |
+
+---
+
+### 134 — Perplexity for Startups
+
+| Field | Detail |
+|-------|--------|
+| **Credit amount** | $5,000 in Perplexity API credits + 6 months of Perplexity Enterprise Pro free for up to 50 team members |
+| **Program tiers** | Single tier (launched April 2025); requires association with approved Startup Partner (VC/accelerator) |
+| **Duration** | 6 months for Enterprise Pro; API credits valid for program term |
+| **Terms** | Perplexity API for search-powered AI products; Enterprise Pro: AI-powered search with citations, pro model access, file uploads, image generation, team management, SSO |
+| **Requirements** | Raised less than $20M total; company less than 5 years old; must be associated with an approved Perplexity Startup Partner (VC, incubator, or accelerator) |
+| **Application path** | `perplexity.ai/startups` → apply if VC/accelerator is an approved partner; if not, ask your investor to apply to become a Perplexity Startup Partner (rolling approvals) |
+| **Stacking rules** | Additive to other AI providers; Perplexity API enables search-augmented applications with real-time web knowledge (not static training data) |
+| **Unlock path** | Apply via `perplexity.ai/startups`; VC/accelerator partner requirement gates access — verify your investors are in the network before applying |
+| **Sequence** | Apply when building products requiring real-time web search + AI synthesis (competitor intelligence, news monitoring, research tools, customer-facing search features) |
+| **Notes** | Perplexity announced a separate $50M fund for early-stage founders in late 2025. Enterprise Pro free for 50 team members is meaningful for internal AI tooling. |
+| **Affiliate/referral** | Perplexity general affiliate program via Dub Partners (`partners.dub.co/perplexity`): up to $20 per referral (varies by country). Campus Partner program also available. |
+
+---
+
+### 135 — Customer.io Lifecycle Messaging
+
+| Field | Detail |
+|-------|--------|
+| **Credit amount** | Startup Basic plan free for 12 months (up to 30,000 profiles + all core channels: email, SMS, push); Startup Plus: $100/month for 12 months |
+| **Program tiers** | Startup Basic (free, 12mo) and Startup Plus ($100/month, 12mo) |
+| **Duration** | 12 months |
+| **Terms** | Customer.io: marketing automation and lifecycle messaging — email, SMS, push, in-app messages, Slack, webhook; segment-based triggered campaigns, A/B testing, data pipelines |
+| **Requirements** | Raised less than $10M total funding; must never have been a Customer.io customer; contacts obtained through standard methods (not purchased lists) |
+| **Application path** | Apply at `customer.io/startup-program-application`; or through recognized startup partner (YC, Techstars, Mercury Banking, AWS Activate) for expedited access |
+| **Stacking rules** | Customer.io is the lifecycle orchestration layer above delivery providers (SendGrid, Twilio); pairs with Segment (entry #29) as data source for user events; complements Brevo (entry #121) for transactional vs. lifecycle separation |
+| **Unlock path** | Direct application at `customer.io/startup-program-application`; partner-channel access via accelerator |
+| **Sequence** | Apply when building SaaS or consumer product needing behavior-triggered messaging — trial activation sequences, churn prevention, onboarding drips; more powerful than Brevo/Mailchimp for event-based flows |
+| **Notes** | Customer.io's strength is behavior-triggered messaging (if user does X, send message Y in Z minutes). The free 30K-profile Basic plan is generous for early-stage SaaS. VCs/accelerators can apply to become Startup Partners at `customer.io/startup-partner-signup` |
+| **Affiliate/referral** | Customer.io formal Partner Program with tiered commission rates; partners must close at least one referred opportunity per year. Apply at `customer.io/connect-partner-signup/`. |
+
+---
+
+### 136 — Meta Llama Startup Program
+
+| Field | Detail |
+|-------|--------|
+| **Credit amount** | Up to $6,000/month in cloud inference cost reimbursement × 6 months = up to $36,000 total |
+| **Program tiers** | Single cohort-based tier; inaugural cohort closed May 30, 2025; future cohorts expected |
+| **Duration** | 6 months of monthly cloud cost reimbursement |
+| **Terms** | Cloud inference reimbursement: Meta reimburses cloud costs (AWS or other providers) for running Llama models; access to Meta's Llama technical team; joint marketing opportunities |
+| **Requirements** | Registered in the United States; building Generative AI applications using Meta's Llama models; employs at least one developer; raised less than $10M; competitive selection — eligibility does not guarantee acceptance |
+| **Application path** | `llama.com/programs/startups/` → cohort application → reviewed per cohort cycle; watch for future cohort openings |
+| **Stacking rules** | Distinct from Meta Ads credits (entry #113) — this program reimburses cloud GPU hosting costs for open-source Llama model inference; additive to cloud credits (AWS, GCP, Azure) since those credits fund the actual inference costs |
+| **Unlock path** | Cohort application; competitive selection; US-only restriction; watch `llama.com` for new cohort announcements |
+| **Sequence** | Apply when building AI product on Llama (open-source, fully controllable) rather than proprietary APIs; $36K covers significant Llama hosting on AWS/Azure/GCP; most valuable for startups needing on-premise or custom fine-tuned model deployment |
+| **Notes** | This program is fundamentally different from Meta Ads credits (entry #113) — it reimburses cloud compute costs for AI startups building on Llama open-source models. $36K max covers extensive GPU compute. US-only as of inaugural cohort |
+| **Affiliate/referral** | No affiliate commission structure; Meta does not have a public affiliate program for Llama Startup Program referrals. |
+
+---
+
 ## Programs by Patrol
 
 ### Patrol #1 — 12 entries
@@ -2635,6 +2713,15 @@ _Sources: CMO research batches 1–5 + direct research — April 2026 expansion 
 | Wistia Startup | Free 3 videos + discounts | Business video hosting |
 | Crisp Live Chat | Free 2 agents + discounts | Multi-channel messaging |
 | Contentful CMS | Free Community + startup discounts | Headless CMS |
+
+**Patrol #5 Addendum — 4 programs from Batch 2 research (entries 133–136)**
+
+| Program | Credit Value | Tier |
+|---------|-------------|------|
+| Groq for Startups | $10K (90-day window) | Ultra-fast AI inference |
+| Perplexity for Startups | $5K API + 6mo Enterprise Pro (50 users) | AI search platform |
+| Customer.io Startup | 12 months free (30K profiles) | Lifecycle messaging |
+| Meta Llama Startup Program | Up to $36K cloud inference reimbursement | Open-source LLM hosting |
 
 ---
 

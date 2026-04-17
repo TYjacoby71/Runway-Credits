@@ -24,7 +24,7 @@ from datetime import datetime
 BASE_DIR    = Path(__file__).parent
 SCHEMA_PATH = BASE_DIR / "schema.sql"
 CATALOG_PATH = BASE_DIR / "data" / "programs.json"
-DEFAULT_DB  = BASE_DIR / "perk_engine.db"
+DEFAULT_DB  = Path(os.environ.get("DB_PATH", str(BASE_DIR / "perk_engine.db")))
 
 # ─────────────────────────────────────────────────────────────────────────────
 # DB helpers

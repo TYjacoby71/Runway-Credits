@@ -44,7 +44,7 @@ from pydantic import BaseModel, Field
 # ---------------------------------------------------------------------------
 
 BASE_DIR = Path(__file__).parent
-DEFAULT_DB = BASE_DIR / "perk_engine.db"
+DEFAULT_DB = Path(os.environ.get("DB_PATH", str(BASE_DIR / "perk_engine.db")))
 
 
 # ---------------------------------------------------------------------------

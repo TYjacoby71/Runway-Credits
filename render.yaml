@@ -12,3 +12,7 @@ services:
         value: 3.11.0
       - key: DB_PATH
         value: /tmp/perk_engine.db
+      - key: PERK_ENGINE_API_KEY
+        sync: false
+      - key: CORS_ALLOWED_ORIGINS
+        value: https://cashflow.run,https://www.cashflow.run

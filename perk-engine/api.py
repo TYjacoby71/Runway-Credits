@@ -34,9 +34,10 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import uvicorn
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import Depends, FastAPI, HTTPException, Request, Security
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from fastapi.security.api_key import APIKeyHeader
 from pydantic import BaseModel, Field
 
 # ---------------------------------------------------------------------------
@@ -45,6 +46,20 @@ from pydantic import BaseModel, Field
 
 BASE_DIR = Path(__file__).parent
 DEFAULT_DB = Path(os.environ.get("DB_PATH", str(BASE_DIR / "perk_engine.db")))
+
+# ---------------------------------------------------------------------------
+# Auth
+# ---------------------------------------------------------------------------
+
+_API_KEY_ENV = os.environ.get("PERK_ENGINE_API_KEY", "")
+_api_key_header = APIKeyHeader(name="X-API-Key", auto_error=False)
+
+
+def _require_api_key(key: str = Security(_api_key_header)) -> None:
+    if not _API_KEY_ENV:
+        raise HTTPException(status_code=500, detail="Server misconfiguration: PERK_ENGINE_API_KEY not set")
+    if key != _API_KEY_ENV:
+        raise HTTPException(status_code=401, detail="Invalid or missing API key")
 
 
 # ---------------------------------------------------------------------------
@@ -298,12 +313,16 @@ app = FastAPI(
     license_info={"name": "Proprietary"},
 )
 
-# Allow browser requests from any local dev origin (file://, localhost:*)
+_cors_origins = [
+    o.strip()
+    for o in os.environ.get("CORS_ALLOWED_ORIGINS", "http://localhost:3000").split(",")
+    if o.strip()
+]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=_cors_origins,
     allow_methods=["GET", "POST", "OPTIONS"],
-    allow_headers=["Content-Type", "Authorization"],
+    allow_headers=["Content-Type", "Authorization", "X-API-Key"],
 )
 
 
@@ -357,7 +376,7 @@ def match(profile: UserProfile, request: Request) -> MatchResponse:
         "the latest scores. Requires `profile.email` to identify the user."
     ),
 )
-def generate_checklist(req: GenerateChecklistRequest, request: Request) -> ChecklistResponse:
+def generate_checklist(req: GenerateChecklistRequest, request: Request, _: None = Depends(_require_api_key)) -> ChecklistResponse:
     profile_dict = req.profile.model_dump()
     if not profile_dict.get("email"):
         raise HTTPException(
@@ -416,7 +435,7 @@ def generate_checklist(req: GenerateChecklistRequest, request: Request) -> Check
         "The checklist must have been generated first via POST /checklist/generate."
     ),
 )
-def get_checklist(user_ref: str) -> ChecklistResponse:
+def get_checklist(user_ref: str, _: None = Depends(_require_api_key)) -> ChecklistResponse:
     db_path = DEFAULT_DB
     if not db_path.exists():
         raise HTTPException(status_code=404, detail="No checklist DB found. Call POST /checklist/generate first.")
@@ -536,7 +555,7 @@ def _fetch_checklist(db_path: Path, user_ref: str) -> ChecklistResponse:
         "Revenue figures are $0 until Stripe webhooks are connected (NOD-66)."
     ),
 )
-def get_kpi() -> KpiResponse:
+def get_kpi(_: None = Depends(_require_api_key)) -> KpiResponse:
     if not DEFAULT_DB.exists():
         raise HTTPException(status_code=503, detail="KPI DB not initialised yet. Call /checklist/generate first.")
     try:
